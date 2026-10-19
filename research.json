@@ -3083,8 +3083,8 @@
   ],
   "price_confirmation_revision": "292dfa5350e2c3fc479aa33a425a31a01b3f3aeb20855cd100eae77939785cd9",
   "research_board": {
-    "revision": "32742fa8858de7319fbfe2ce0fa426eee9eac6b8c6628f8214960256a07b678f",
-    "recorded_at": "2026-10-16T00:10:37.605031+00:00",
+    "revision": "f4d36d3106c69786d4d42e740de81b64d5c44dd7adad12de053cbc4390b2d55f",
+    "recorded_at": "2026-10-19T14:35:53.315703+00:00",
     "headline": "現時点で空売りを推奨できる銘柄はなし",
     "headline_reason": "企業価値の割高評価と下落触媒の根拠が揃っていない。急騰・提携・好決算だけでは売りの根拠にしない。借株・費用・規制・反転・イベントと損失管理も別に確認する。",
     "research_candidate_count": 0,
@@ -3103,14 +3103,14 @@
     "discovery": {
       "method": "bounded_web_research",
       "status": "OBSERVED_PARTIAL",
-      "observed_session": "2026-10-15",
+      "observed_session": "2026-10-19",
       "observed_at": null,
-      "verification_window_start": "2026-10-15T23:49:07.626596Z",
-      "verification_window_end": "2026-10-16T00:10:37.605031Z",
+      "verification_window_start": "2026-10-19T10:24:39.744119Z",
+      "verification_window_end": "2026-10-19T14:35:53.315703Z",
       "source_ids": [
-        "DAY16_NEWS_BODY",
-        "R16_NEWS_UNAVAILABLE",
-        "R16_NEWS_OTHER"
+        "DAY19_PARENT_NEWS",
+        "DAY19_SHOWCASE_IR",
+        "DAY19_ONDECK_IR"
       ],
       "requested_new_company_limit": 3,
       "full_market_coverage": false,
@@ -3120,9 +3120,9 @@
       "observed_twenty_day_condition": null,
       "price_numeric_data_stored": false,
       "recurring_provider_permission": "unconfirmed",
-      "note": "10/16 JSTの同じ研究run。ニュース発見検索は初回1回のみ、再開時0回。材料16アクセス（初回7+有界再読/公式導線9）、原URL2件と同見出し別配信の未取得を保持。会社一次本文は公式リンクから確認。3922/6721/6505は検索言及のみ・一次未認定/未登録。全市場候補0/変化なしを示さない。1日15%/5日30%/20日70%と現価格は未確認。価格・ニュース本文を保存/再配信しない。PDF内find2回は既読部分の確認。"
+      "note": "10/19の限定調査。検索は初回不関連1回＋今回だけ許可された追加1回。市況記事は親側の独立読取報告を採用し、この実行者の直接読了とはしない。可視日時15:40と一部抽出メタデータ15:30の不一致を保持。3909/7360は会社IR入口へ戻ったが個別の新材料本文は未確認で、未認定・未登録。ストップ高やテーマだけで売り候補にしない。価格3条件はすべて未確認、全市場非網羅。ニュース本文・株価・注文残の数値は保存/配信しない。"
     },
-    "change_reason": "同じ10/16 runを再開。公式リンクで2449決算/提携と4935発表本文を確認し、一般ニュースと旧IR URL未取得を明示。日付だけで材料を新規化せず、14社/役割/価格条件/取引未確認を維持。",
+    "change_reason": "10/19：親側の独立した同記事読取報告を範囲付き採用し、発見経路の未取得を解消。新規2社は一次の個別材料未確認で未登録、深掘り昇格なし。現deep5を具体的問い・強気反証・鮮度不足に基づき継続し、watch3/queue1/旧5履歴保管を維持。4935/2449の既知一次資料を再照合し、未取得や既知資料を新材料へ変換しない。研究候補の根拠と取引8軸は不足のまま。",
     "immediate_short_recommendation": false,
     "cases": [
       {
@@ -3134,7 +3134,7 @@
         "role_label": "深掘り対象",
         "priority": 1,
         "priority_reason": "入金・資金・希薄化が企業価値を左右するため優先",
-        "reason": "大口前受は需要の根拠だが、持続FCFFと同時点資本・融資/設備支払が不足。割高と確定できない。 10/12：IR入口と一覧には到達したが動的な個別開示を抽出できず、新資料・残入金・融資実行の有無は未確認。既存の強気反証と資本/FCFF不足を継承。 10/16：同日初回の公式一覧到達のみ。個別新資料・実行/資金の有無は未確認で、変化なしと断定しない。",
+        "reason": "大口前受は需要の根拠だが、持続FCFFと同時点資本・融資/設備支払が不足。割高と確定できない。 10/12：IR入口と一覧には到達したが動的な個別開示を抽出できず、新資料・残入金・融資実行の有無は未確認。既存の強気反証と資本/FCFF不足を継承。 10/16：同日初回の公式一覧到達のみ。個別新資料・実行/資金の有無は未確認で、変化なしと断定しない。 10/19：公式入口は到達したが個別の新開示本文を抽出できず、新材料の有無は未確認。保存一次資料の強気反証と具体的研究問いを継承し、変化なしとは断定しない。",
         "counterevidence": "初回98.55百万USD入金は需要否定への反証。契約発効と運営体制の整備を無視しない。",
         "change_conditions": [
           "残32.85百万USDの入金・124百万USD融資の実行と設備支払を確認",
@@ -3142,11 +3142,11 @@
           "同時点の全体価値が市場評価を支えない根拠と下落触媒が揃えば候補へ再審査"
         ],
         "research_question": "契約期間に株主へ残る現金と、追加資金・希薄化を同時点で追えるか",
-        "role_reason": "10/16継続：個別新資料は未確認。保存一次資料、強気反証、資金/持続利益の具体的問いを保持し、日付だけで入替や材料認定をしない。",
+        "role_reason": "10/19継続：個別新資料の鮮度は未確認。保存済一次資料、強気反証、資金・持続利益の具体的問いにより研究枠を維持。新資料未取得を入替理由や売り根拠にしない。",
         "observed_at": null,
-        "observation_window_start": "2026-10-15T23:49:07.626596Z",
-        "observation_window_end": "2026-10-16T00:10:37.605031Z",
-        "assessed_at": "2026-10-16T00:10:37.605031Z",
+        "observation_window_start": "2026-10-19T10:24:39.744119Z",
+        "observation_window_end": "2026-10-19T14:35:53.315703Z",
+        "assessed_at": "2026-10-19T14:35:53.315703Z",
         "price_basis_date": "2026-10-02",
         "evidence_change": "not_observed",
         "source_ids": [
@@ -3157,7 +3157,8 @@
           "D_INDEX_20261006",
           "D_INDEX_20261007",
           "DAY12_DS_NEWS",
-          "DAY16_DS_LIST"
+          "DAY16_DS_LIST",
+          "DAY19_DS_LIST"
         ],
         "execution_label": "取引条件は未確認"
       },
@@ -3170,7 +3171,7 @@
         "role_label": "深掘り対象",
         "priority": 1,
         "priority_reason": "海外商用化と資金/可変行使の二つが未解決",
-        "reason": "海外試験導入を商用受注や利益へ変換できない。10/5クレア買収価額減額は資金負担を軽減するが、実需・持続FCFF・希薄化後資本は未確認。割高と確定せず条件待ち。 10/7完全子会社アフラの無対価合併事前開示を確認。新規外部需要/連結利益増分はこの手続きだけでは確定しない。 10/12に10/8会社発表本文を確認。9/27元記事の紹介と建設現場の試験導入で、10/12の新受注発表ではない。有償受注額・粗利・回収の根拠は示されず、全体価値を確定しない。 10/16：10/15発表本文を確認。対象は9/30の国際研修での説明・展示で、供給販売体制は検討段階。有償受注額・利益・現金回収の確定ではない。",
+        "reason": "海外試験導入を商用受注や利益へ変換できない。10/5クレア買収価額減額は資金負担を軽減するが、実需・持続FCFF・希薄化後資本は未確認。割高と確定せず条件待ち。 10/7完全子会社アフラの無対価合併事前開示を確認。新規外部需要/連結利益増分はこの手続きだけでは確定しない。 10/12に10/8会社発表本文を確認。9/27元記事の紹介と建設現場の試験導入で、10/12の新受注発表ではない。有償受注額・粗利・回収の根拠は示されず、全体価値を確定しない。 10/16：10/15発表本文を確認。対象は9/30の国際研修での説明・展示で、供給販売体制は検討段階。有償受注額・利益・現金回収の確定ではない。 10/19：既知10/15発表の9/30展示・説明と供給販売体制検討を再照合。有償受注・利益・回収への進展は確認できず、新材料や利益へ加算しない。",
         "counterevidence": "クレア取得価額841→646百万円、費用込み890→695百万円へ195百万円減額し10/2返金済み。会社は2026年12月期のれん償却29百万円減を開示。需要・財務負担を一方向に弱気評価できない。ただし償却減は現金流入や営業実需ではない。 グループ内再編が管理効率を高める可能性は否定しないが、定量効果と現金寄与は未確認。 海外建設現場の試験導入と認知拡大は合理的な強気説明。商用規模の利益・回収には未接続。 各国政府関係者への紹介と現地パートナー連携は市場浸透の合理的な強気根拠。参加・関心を契約や利益へ置換しない。",
         "change_conditions": [
           "有償導入の数量・単価・粗利と現金回収を確認",
@@ -3181,13 +3182,13 @@
           "10/15の会社発表にある供給・販売体制検討が確定契約/販売・費用/現金回収へ移る証拠を確認。規制説明は会社主張と独立確認を区別"
         ],
         "research_question": "海外での説明・試験導入・認知から、有償導入数量/粗利/回収へ移った一次証拠があるか。供給販売体制の実行費用、資金・希薄化を同時点で確認する。",
-        "role_reason": "10/16継続：10/15発表本文で9/30イベント参加と体制検討を区別。商用利益と資金の未回答論点を維持。",
+        "role_reason": "10/19継続：海外での認知という強気根拠と商用化・現金回収の具体的問いを保持。材料は既知10/15発表で鮮度を表示し、毎日の強制入替はしない。",
         "observed_at": null,
-        "observation_window_start": "2026-10-15T23:49:07.626596Z",
-        "observation_window_end": "2026-10-16T00:10:37.605031Z",
-        "assessed_at": "2026-10-16T00:10:37.605031Z",
+        "observation_window_start": "2026-10-19T10:24:39.744119Z",
+        "observation_window_end": "2026-10-19T14:35:53.315703Z",
+        "assessed_at": "2026-10-19T14:35:53.315703Z",
         "price_basis_date": "2026-10-02",
-        "evidence_change": "new_primary_evidence",
+        "evidence_change": "unchanged",
         "source_ids": [
           "L_SG_PILOT",
           "L_MOM",
@@ -3198,7 +3199,8 @@
           "DAY12_LIBERTA_LIST",
           "DAY12_LIBERTA_ST",
           "DAY16_LIBERTA_LIST",
-          "R16_LIBERTA_HEAT"
+          "R16_LIBERTA_HEAT",
+          "DAY19_LIBERTA_KNOWN"
         ],
         "execution_label": "取引条件は未確認"
       },
@@ -3211,7 +3213,7 @@
         "role_label": "深掘り対象",
         "priority": 2,
         "priority_reason": "今期影響軽微という提携が将来EPSへどれだけ残るかを優先",
-        "reason": "Edelman提携は実体ある強気材料。今期影響は軽微とされ、長期寄与・評価全体を未検証のため空売りは条件待ち。 10/12：公式IR取得は失敗。10/1Edelman提携の既知本文を再確認し、国際展開の強気説明と今期影響軽微を保持。10/12新開示有無や将来利益額は未確認。 10/16：公式導線の10/15決算短信で26/8営業益742百万円・営業CF574百万円、27/8営業益予想1100百万円・EPS予想139.17円を確認。予想達成や持続FCFFは未確認。提携の10/30実行予定と軽微影響を再照合。旧IR URLは404のままで、全開示確認とはしない。",
+        "reason": "Edelman提携は実体ある強気材料。今期影響は軽微とされ、長期寄与・評価全体を未検証のため空売りは条件待ち。 10/12：公式IR取得は失敗。10/1Edelman提携の既知本文を再確認し、国際展開の強気説明と今期影響軽微を保持。10/12新開示有無や将来利益額は未確認。 10/16：公式導線の10/15決算短信で26/8営業益742百万円・営業CF574百万円、27/8営業益予想1100百万円・EPS予想139.17円を確認。予想達成や持続FCFFは未確認。提携の10/30実行予定と軽微影響を再照合。旧IR URLは404のままで、全開示確認とはしない。 10/19：既知10/15短信の実績・翌期計画を同一資料で再確認。新しい上方修正ではなく、予想達成・持続FCFF・現時点全体価値は未確認。",
         "counterevidence": "既存株の相対取得はTOBの価格下支え保証ではない。提携による国際展開の価値は残る。 営業CF黒字と翌期増益予想は強気反証。増益予想全体をEdelman提携による追加利益と二重加算しない。既存株相対取得をTOBや会社への新資金流入と扱わない。",
         "change_conditions": [
           "実行10/30予定と提携の具体収益・費用・持続EPSを確認",
@@ -3219,13 +3221,13 @@
           "2027年8月期増益予想の達成・営業現金、10/22予定説明資料と10/30予定の提携実行を確認。営業CFをそのままFCFFにしない"
         ],
         "research_question": "翌期増益計画の受注・粗利・費用と持続営業現金を追えるか。提携増分を全体予想へ二重加算せず、10/30実行と同時点資本・市場評価を揃える。",
-        "role_reason": "10/16継続：公式決算/提携PDFを確認し強気反証を更新。旧IRの404は未解決、価格と持続FCFF・全体評価は未確定。",
+        "role_reason": "10/19継続：決算実績と翌期計画の一次本文を再照合。増益計画と現金創出の強気根拠を残し、10/22説明資料・10/30提携実行の確認を待つ。売り候補への昇格ではない。",
         "observed_at": null,
-        "observation_window_start": "2026-10-15T23:49:07.626596Z",
-        "observation_window_end": "2026-10-16T00:10:37.605031Z",
-        "assessed_at": "2026-10-16T00:10:37.605031Z",
+        "observation_window_start": "2026-10-19T10:24:39.744119Z",
+        "observation_window_end": "2026-10-19T14:35:53.315703Z",
+        "assessed_at": "2026-10-19T14:35:53.315703Z",
         "price_basis_date": "2026-10-02",
-        "evidence_change": "new_primary_evidence",
+        "evidence_change": "unchanged",
         "source_ids": [
           "P2449",
           "DISCOVERY",
@@ -3237,7 +3239,8 @@
           "R16_PRAP_PARTNER",
           "R16_PRAP_GROUP",
           "R16_PRAP_FY",
-          "R16_PRAP_CAPITAL"
+          "R16_PRAP_CAPITAL",
+          "DAY19_PRAP_FY"
         ],
         "execution_label": "取引条件は未確認"
       },
@@ -3250,18 +3253,18 @@
         "role_label": "深掘り対象",
         "priority": 2,
         "priority_reason": "買収完了後の一株利益・資金負担の確認を優先",
-        "reason": "買収完了は実行面を支持。PPA・利息・統合費用後の通年利益が不足し、急騰だけで売らない。 10/12：公式IR入口/一覧の個別開示を抽出できず、新重要材料の有無は未確認。既知の取得先実体利益・クロスセルの強気説明を維持。 10/16：同日初回の公式一覧到達のみ。個別新資料・実行/資金の有無は未確認で、変化なしと断定しない。",
+        "reason": "買収完了は実行面を支持。PPA・利息・統合費用後の通年利益が不足し、急騰だけで売らない。 10/12：公式IR入口/一覧の個別開示を抽出できず、新重要材料の有無は未確認。既知の取得先実体利益・クロスセルの強気説明を維持。 10/16：同日初回の公式一覧到達のみ。個別新資料・実行/資金の有無は未確認で、変化なしと断定しない。 10/19：公式入口は到達したが個別の新開示本文を抽出できず、新材料の有無は未確認。保存一次資料の強気反証と具体的研究問いを継承し、変化なしとは断定しない。",
         "counterevidence": "買収先の実体利益とクロスセルは強気側の合理的根拠。9/24予想の10/1再掲は二度目の増額ではない。",
         "change_conditions": [
           "連結範囲と通年純利益、PPA/のれん、借入実行金利を確認",
           "希薄化後の持続EPSと市場評価が矛盾するかを再計算"
         ],
         "research_question": "取得先利益から借入・PPA・統合費用を引いた持続EPSはどれだけか",
-        "role_reason": "10/16継続：個別新資料は未確認。保存一次資料、強気反証、資金/持続利益の具体的問いを保持し、日付だけで入替や材料認定をしない。",
+        "role_reason": "10/19継続：個別新資料の鮮度は未確認。保存済一次資料、強気反証、資金・持続利益の具体的問いにより研究枠を維持。新資料未取得を入替理由や売り根拠にしない。",
         "observed_at": null,
-        "observation_window_start": "2026-10-15T23:49:07.626596Z",
-        "observation_window_end": "2026-10-16T00:10:37.605031Z",
-        "assessed_at": "2026-10-16T00:10:37.605031Z",
+        "observation_window_start": "2026-10-19T10:24:39.744119Z",
+        "observation_window_end": "2026-10-19T14:35:53.315703Z",
+        "assessed_at": "2026-10-19T14:35:53.315703Z",
         "price_basis_date": "2026-10-02",
         "evidence_change": "not_observed",
         "source_ids": [
@@ -3270,7 +3273,8 @@
           "G_INDEX_20261006",
           "G_INDEX_20261007",
           "DAY12_GMO_NEWS",
-          "DAY16_GMO_LIST"
+          "DAY16_GMO_LIST",
+          "DAY19_GMO_LIST"
         ],
         "execution_label": "取引条件は未確認"
       },
@@ -3283,18 +3287,18 @@
         "role_label": "深掘り対象",
         "priority": 2,
         "priority_reason": "買収対象の実体利益と資金・のれん負担を優先",
-        "reason": "約40.09億円の取得は自己資金と借入予定。対象の実体利益があるため急騰だけで売らず、資金・のれん・統合後EPSを待つ。 10/12：IR入口/一覧に到達したが個別開示を抽出できず、新重要材料の有無は未確認。実体利益とクロスセルの反証、買収資金/のれん/統合費用の問いを維持。 10/16：同日初回の公式一覧到達のみ。個別新資料・実行/資金の有無は未確認で、変化なしと断定しない。",
+        "reason": "約40.09億円の取得は自己資金と借入予定。対象の実体利益があるため急騰だけで売らず、資金・のれん・統合後EPSを待つ。 10/12：IR入口/一覧に到達したが個別開示を抽出できず、新重要材料の有無は未確認。実体利益とクロスセルの反証、買収資金/のれん/統合費用の問いを維持。 10/16：同日初回の公式一覧到達のみ。個別新資料・実行/資金の有無は未確認で、変化なしと断定しない。 10/19：公式入口は到達したが個別の新開示本文を抽出できず、新材料の有無は未確認。保存一次資料の強気反証と具体的研究問いを継承し、変化なしとは断定しない。",
         "counterevidence": "対象の2025年営業利益約5.08億円とクロスセルは強気側の合理性。取得予定を完了・利益保証にしない。",
         "change_conditions": [
           "10/23取得予定と翌期1Q連結、融資実行・のれん/償却・PMIを確認",
           "関連当事者条件と持続利益、希薄化後資本を確認"
         ],
         "research_question": "実体利益を加え資金・のれん・統合費用を引いても割高か",
-        "role_reason": "10/16継続：個別新資料は未確認。保存一次資料、強気反証、資金/持続利益の具体的問いを保持し、日付だけで入替や材料認定をしない。",
+        "role_reason": "10/19継続：個別新資料の鮮度は未確認。保存済一次資料、強気反証、資金・持続利益の具体的問いにより研究枠を維持。新資料未取得を入替理由や売り根拠にしない。",
         "observed_at": null,
-        "observation_window_start": "2026-10-15T23:49:07.626596Z",
-        "observation_window_end": "2026-10-16T00:10:37.605031Z",
-        "assessed_at": "2026-10-16T00:10:37.605031Z",
+        "observation_window_start": "2026-10-19T10:24:39.744119Z",
+        "observation_window_end": "2026-10-19T14:35:53.315703Z",
+        "assessed_at": "2026-10-19T14:35:53.315703Z",
         "price_basis_date": "2026-10-02",
         "evidence_change": "not_observed",
         "source_ids": [
@@ -3303,7 +3307,8 @@
           "P476A_INDEX_20261006",
           "P476A_INDEX_20261007",
           "DAY12_HT_NEWS",
-          "DAY16_HT_LIST"
+          "DAY16_HT_LIST",
+          "DAY19_HT_LIST"
         ],
         "execution_label": "取引条件は未確認"
       },
@@ -4351,6 +4356,102 @@
         "verification_window_start": "2026-10-16T00:09:38.478137Z",
         "verification_window_end": "2026-10-16T00:10:37.605031Z",
         "body_verified": true
+      },
+      {
+        "source_id": "DAY19_DS_LIST",
+        "title": "3905公式IR一覧：個別新資料は未確認",
+        "url": "https://www.datasection.co.jp/ir/news",
+        "kind": "issuer",
+        "published_at": null,
+        "published_date": null,
+        "observed_at": null,
+        "verification_window_start": "2026-10-19T10:24:39.744119Z",
+        "verification_window_end": "2026-10-19T14:35:53.315703Z",
+        "body_verified": false
+      },
+      {
+        "source_id": "DAY19_GMO_LIST",
+        "title": "410A公式IR一覧：個別新資料は未確認",
+        "url": "https://ir.gmoc.jp/news/",
+        "kind": "issuer",
+        "published_at": null,
+        "published_date": null,
+        "observed_at": null,
+        "verification_window_start": "2026-10-19T10:24:39.744119Z",
+        "verification_window_end": "2026-10-19T14:35:53.315703Z",
+        "body_verified": false
+      },
+      {
+        "source_id": "DAY19_LIBERTA_KNOWN",
+        "title": "4935既知10/15発表本文の再確認",
+        "url": "https://ir.liberta-j.co.jp/ja/ir/news/auto_20261015551229/pdfFile.pdf",
+        "kind": "issuer",
+        "published_at": null,
+        "published_date": "2026-10-15",
+        "observed_at": null,
+        "verification_window_start": "2026-10-19T10:24:39.744119Z",
+        "verification_window_end": "2026-10-19T14:35:53.315703Z",
+        "body_verified": true
+      },
+      {
+        "source_id": "DAY19_HT_LIST",
+        "title": "476A公式IR一覧：個別新資料は未確認",
+        "url": "https://ht-itc.jp/ir/ir_news/",
+        "kind": "issuer",
+        "published_at": null,
+        "published_date": null,
+        "observed_at": null,
+        "verification_window_start": "2026-10-19T10:24:39.744119Z",
+        "verification_window_end": "2026-10-19T14:35:53.315703Z",
+        "body_verified": false
+      },
+      {
+        "source_id": "DAY19_SHOWCASE_IR",
+        "title": "3909会社IR入口：個別の新材料本文は未確認",
+        "url": "https://www.showcase-tv.com/ir/",
+        "kind": "issuer",
+        "published_at": null,
+        "published_date": null,
+        "observed_at": null,
+        "verification_window_start": "2026-10-19T10:24:39.744119Z",
+        "verification_window_end": "2026-10-19T14:35:53.315703Z",
+        "body_verified": false
+      },
+      {
+        "source_id": "DAY19_ONDECK_IR",
+        "title": "7360会社IR入口：個別の新材料本文は未確認",
+        "url": "https://www.ondeck.jp/ir",
+        "kind": "issuer",
+        "published_at": null,
+        "published_date": null,
+        "observed_at": null,
+        "verification_window_start": "2026-10-19T10:24:39.744119Z",
+        "verification_window_end": "2026-10-19T14:35:53.315703Z",
+        "body_verified": false
+      },
+      {
+        "source_id": "DAY19_PRAP_FY",
+        "title": "2449既知10/15決算短信の再確認",
+        "url": "https://www.prapgroup.com/ir/upload_file/tdnrelease/2449_20261015551404_P01_.pdf",
+        "kind": "issuer",
+        "published_at": null,
+        "published_date": "2026-10-15",
+        "observed_at": null,
+        "verification_window_start": "2026-10-19T10:24:39.744119Z",
+        "verification_window_end": "2026-10-19T14:35:53.315703Z",
+        "body_verified": true
+      },
+      {
+        "source_id": "DAY19_PARENT_NEWS",
+        "title": "10/19市況記事：親側の独立読取報告を採用、時刻メタデータに不一致",
+        "url": "https://s.kabutan.jp/news/n202610190691/",
+        "kind": "discovery",
+        "published_at": "2026-10-19T15:40:00+09:00",
+        "published_date": "2026-10-19",
+        "observed_at": null,
+        "verification_window_start": null,
+        "verification_window_end": null,
+        "body_verified": true
       }
     ],
     "history": [
@@ -4511,6 +4612,26 @@
       {
         "recorded_at": "2026-10-16T00:10:37.605031Z",
         "change_reason": "同じ10/16 runを再開。公式リンクで2449決算/提携と4935発表本文を確認し、一般ニュースと旧IR URL未取得を明示。日付だけで材料を新規化せず、14社/役割/価格条件/取引未確認を維持。",
+        "roles": {
+          "3905": "deep",
+          "6904": "watch",
+          "4935": "deep",
+          "7883": "archived",
+          "3350": "archived",
+          "6977": "archived",
+          "4062": "archived",
+          "4967": "watch",
+          "410A": "deep",
+          "4716": "archived",
+          "2449": "deep",
+          "476A": "deep",
+          "3549": "watch",
+          "593A": "queue"
+        }
+      },
+      {
+        "recorded_at": "2026-10-19T14:35:53.315703Z",
+        "change_reason": "10/19：親側の独立した同記事読取報告を範囲付き採用し、発見経路の未取得を解消。新規2社は一次の個別材料未確認で未登録、深掘り昇格なし。現deep5を具体的問い・強気反証・鮮度不足に基づき継続し、watch3/queue1/旧5履歴保管を維持。4935/2449の既知一次資料を再照合し、未取得や既知資料を新材料へ変換しない。研究候補の根拠と取引8軸は不足のまま。",
         "roles": {
           "3905": "deep",
           "6904": "watch",
