@@ -1,508 +1,14 @@
 {
   "schema_version": "public-research-review-1",
   "series_id": "JP-WEB-20260925",
-  "revision": "6c49a33ef4cb6dcfa9a01fa55c358dc608e4cc798154fe283c4e690ad8073c74",
-  "revision_count": 5,
-  "recorded_at": "2026-10-04T10:44:43.934828Z",
+  "revision": "6a3734e3ac6c80143a1efcdf0de60d98546ac96a1c9ac2d30c56efa44991ddfa",
+  "revision_count": 7,
+  "recorded_at": "2026-10-22T02:17:39.848806Z",
   "event_count": 10,
   "acquisition_status": "OBSERVED_PARTIAL",
   "important_changes": "5社は10月2日終値を依頼時のWeb調査で確認。価格基準日と直接出典を追記し、当サイトで株価数値を継続配信しないことを明示。 410Aは10月1日の買収完了を確認。6904は9月30日の子会社配当を確認しましたが、連結増益には加算しません。4935は海外の試験導入と規制需要を確認し、商用受注・利益は保留。4967は初期提案の具体条件待ち。3905は同日午前の重点分析を保持し、同時点資本・持続利益・資金の不足を残しています。",
   "new_work_analysis": false,
   "cases": [
-    {
-      "event_id": "JP-WEB-3905-20260925",
-      "ticker": "3905",
-      "name": "データセクション",
-      "progress": "WORK_DRAFT_AVAILABLE",
-      "price_as_of": null,
-      "research_recorded_at": "2026-10-04T07:29:19.709293+00:00",
-      "latest_check_at": "2026-10-04T10:44:43.934828Z",
-      "update_status": "NOT_OBSERVED",
-      "change_label": "保存研究の差分：今回未観測・変化不明（前回資料）",
-      "work_card": {
-        "label": "企業価値全体はUNKNOWN",
-        "view": "入金と運営体制は強気側の根拠。持続利益・資金・最新資本を確認するまでUNKNOWN",
-        "catalyst": "大口前受を伴う受注発効とタイ運営主体整備",
-        "counterevidence": "実際の大口前受は需要否定への反証。稼働・残入金・融資成立は別に未確認",
-        "next_condition": "残入金、124百万USD融資、有償稼働、同時点の資本・最新価格、継続現金",
-        "company_deadline": "残金は9月24日から30日以内の会社予定。段階開始10月、全面11～12月の予定",
-        "self_review_window": "新開示または次決算の実観測時; manual only",
-        "if_met": "費用・更新後の持続現金で全体評価を裏付ければ合理性を強める",
-        "if_not": "実証された不履行・融資不成立・費用悪化のみ慎重化",
-        "price_stage": "現在価格は未取得。旧9月25日価格は過去の比較基準",
-        "changes": {
-          "price_update": false,
-          "new_market_news_since_prior": true,
-          "research_supplement": true,
-          "research_clarification": true,
-          "fetch_failure_unknown": false
-        },
-        "evidence": {
-          "observed_facts": [
-            "会社リンクの559件IRフィードを取得し先頭10月1日17:20を確認",
-            "current price未取得、8欠損をnull保全"
-          ],
-          "issuer_claims": [
-            "初回98.55百万USD入金で発効",
-            "タイ増資後資本金675086000THB、業績重要影響なし"
-          ],
-          "analysis_assumptions": [
-            "新受注と旧設備案件の対応を仮定しない",
-            "参考粗利率を実績マージンへ変換しない"
-          ],
-          "unconfirmed": [
-            "最新資本基準・融資希薄化モデル・持続FCFF・現在価格"
-          ]
-        },
-        "source_ids": [
-          "D01",
-          "D02",
-          "D03",
-          "THAI_MOU",
-          "IR_RSS",
-          "TDNET_20261001",
-          "IR_FEED",
-          "SEP3_CAPITAL",
-          "AUG18_PRESENTATION",
-          "JUN4_B200",
-          "IR_INDEX",
-          "JPX_CALENDAR"
-        ]
-      },
-      "sources": [
-        {
-          "id": "D01",
-          "title": "9/18 GPUaaS大口受注と資金計画",
-          "url": "https://www.datasection.co.jp/en-financial-report/en-ir-20260918002.pdf",
-          "source_kind": "company_ir",
-          "evidence_use": null,
-          "published_at": null,
-          "published_date": "2026-09-18",
-          "first_observed_at": null,
-          "retrieved_at": "2026-10-04T07:28:47.125852Z",
-          "this_run_access": "保存研究の確認記録。再取得の範囲は日時を参照",
-          "retrieval_window_start": null,
-          "retrieval_window_end": null
-        },
-        {
-          "id": "D02",
-          "title": "9/24 初回入金と受注発効",
-          "url": "https://www.datasection.co.jp/en-financial-report/en-ir-20260924001.pdf",
-          "source_kind": "company_ir",
-          "evidence_use": null,
-          "published_at": null,
-          "published_date": "2026-09-24",
-          "first_observed_at": null,
-          "retrieved_at": "2026-10-04T07:28:51.495970Z",
-          "this_run_access": "保存研究の確認記録。再取得の範囲は日時を参照",
-          "retrieval_window_start": null,
-          "retrieval_window_end": null
-        },
-        {
-          "id": "D03",
-          "title": "8/14 四半期決算と通期予想",
-          "url": "https://www.datasection.co.jp/en-financial-report/en-ir-20260814002.pdf",
-          "source_kind": "company_ir",
-          "evidence_use": null,
-          "published_at": null,
-          "published_date": "2026-08-14",
-          "first_observed_at": null,
-          "retrieved_at": "2026-10-04T07:28:57.784036Z",
-          "this_run_access": "保存研究の確認記録。再取得の範囲は日時を参照",
-          "retrieval_window_start": null,
-          "retrieval_window_end": null
-        },
-        {
-          "id": "THAI_MOU",
-          "title": "8月 タイ関連MOU",
-          "url": "https://www.datasection.co.jp/news/pressrelease-20260828001",
-          "source_kind": "company_ir",
-          "evidence_use": null,
-          "published_at": null,
-          "published_date": "2026-08-28",
-          "first_observed_at": null,
-          "retrieved_at": "2026-10-04T07:29:02.342352Z",
-          "this_run_access": "保存研究の確認記録。再取得の範囲は日時を参照",
-          "retrieval_window_start": null,
-          "retrieval_window_end": null
-        },
-        {
-          "id": "IR_RSS",
-          "title": "会社リンクの公式IR RSS",
-          "url": "https://ssl4.eir-parts.net/V4Public/EIR/3905/ja/announcement/announcement_9.xml",
-          "source_kind": "company_ir",
-          "evidence_use": null,
-          "published_at": null,
-          "published_date": null,
-          "first_observed_at": null,
-          "retrieved_at": "2026-10-04T07:18:59.331378+00:00",
-          "this_run_access": "保存研究の確認記録。再取得の範囲は日時を参照",
-          "retrieval_window_start": null,
-          "retrieval_window_end": null
-        },
-        {
-          "id": "TDNET_20261001",
-          "title": "10/1 タイ子会社の資本・連結化",
-          "url": "https://www.release.tdnet.info/inbs/140120261001544806.pdf",
-          "source_kind": "tdnet",
-          "evidence_use": null,
-          "published_at": "2026-10-01T17:20:00+09:00",
-          "published_date": "2026-10-01",
-          "first_observed_at": null,
-          "retrieved_at": "2026-10-04T07:19:03.891876+00:00",
-          "this_run_access": "保存研究の確認記録。再取得の範囲は日時を参照",
-          "retrieval_window_start": null,
-          "retrieval_window_end": null
-        },
-        {
-          "id": "IR_FEED",
-          "title": "会社リンクの公式IR一覧",
-          "url": "https://ssl4.eir-parts.net/V4Public/EIR/3905/ja/announcement/announcement_8.js",
-          "source_kind": "company_ir",
-          "evidence_use": null,
-          "published_at": null,
-          "published_date": null,
-          "first_observed_at": null,
-          "retrieved_at": "2026-10-04T07:19:51.565430+00:00",
-          "this_run_access": "保存研究の確認記録。再取得の範囲は日時を参照",
-          "retrieval_window_start": null,
-          "retrieval_window_end": null
-        },
-        {
-          "id": "SEP3_CAPITAL",
-          "title": "9/3 主要株主・発行済株式の開示",
-          "url": "https://ssl4.eir-parts.net/doc/3905/tdnet/2881279/00.pdf",
-          "source_kind": "company_ir",
-          "evidence_use": null,
-          "published_at": "2026-09-03T11:30:00+09:00",
-          "published_date": "2026-09-03",
-          "first_observed_at": null,
-          "retrieved_at": "2026-10-04T07:20:56.206491+00:00",
-          "this_run_access": "保存研究の確認記録。再取得の範囲は日時を参照",
-          "retrieval_window_start": null,
-          "retrieval_window_end": null
-        },
-        {
-          "id": "AUG18_PRESENTATION",
-          "title": "8/18 決算説明資料",
-          "url": "https://ssl4.eir-parts.net/doc/3905/ir_material_for_fiscal_ym1/211022/00.pdf",
-          "source_kind": "company_ir",
-          "evidence_use": null,
-          "published_at": "2026-08-18T17:33:00+09:00",
-          "published_date": "2026-08-18",
-          "first_observed_at": null,
-          "retrieved_at": "2026-10-04T07:21:03.081973+00:00",
-          "this_run_access": "保存研究の確認記録。再取得の範囲は日時を参照",
-          "retrieval_window_start": null,
-          "retrieval_window_end": null
-        },
-        {
-          "id": "JUN4_B200",
-          "title": "6/4 GPU設備計画",
-          "url": "https://ssl4.eir-parts.net/doc/3905/tdnet/2831391/00.pdf",
-          "source_kind": "company_ir",
-          "evidence_use": null,
-          "published_at": null,
-          "published_date": "2026-06-04",
-          "first_observed_at": null,
-          "retrieved_at": "2026-10-04T07:21:08.430691+00:00",
-          "this_run_access": "保存研究の確認記録。再取得の範囲は日時を参照",
-          "retrieval_window_start": null,
-          "retrieval_window_end": null
-        },
-        {
-          "id": "IR_INDEX",
-          "title": "データセクション公式IR入口",
-          "url": "https://www.datasection.co.jp/ir/news",
-          "source_kind": "company_ir",
-          "evidence_use": null,
-          "published_at": null,
-          "published_date": null,
-          "first_observed_at": null,
-          "retrieved_at": "2026-10-04T07:18:19.807294+00:00",
-          "this_run_access": "保存研究の確認記録。再取得の範囲は日時を参照",
-          "retrieval_window_start": null,
-          "retrieval_window_end": null
-        },
-        {
-          "id": "JPX_CALENDAR",
-          "title": "JPX取引日程",
-          "url": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/index.html",
-          "source_kind": "jpx",
-          "evidence_use": null,
-          "published_at": null,
-          "published_date": null,
-          "first_observed_at": null,
-          "retrieved_at": null,
-          "this_run_access": "保存研究の確認記録。再取得の範囲は日時を参照",
-          "retrieval_window_start": null,
-          "retrieval_window_end": null
-        }
-      ],
-      "history": [
-        {
-          "revision": "7c8fac11d1a2fa8f7534c638d92753f0aa9c55190df6fed2ebaca7516fa5afb6",
-          "recorded_at": "2026-09-27T05:52:05.525194+00:00",
-          "update_status": "FIRST_OBSERVATION",
-          "work_card": {
-            "label": null,
-            "view": null,
-            "catalyst": null,
-            "counterevidence": null,
-            "next_condition": null,
-            "company_deadline": null,
-            "self_review_window": null,
-            "if_met": null,
-            "if_not": null,
-            "price_stage": null,
-            "changes": null,
-            "evidence": null,
-            "source_ids": null
-          },
-          "work_analysis": {
-            "justification": "## 買い手の最も合理的な説明\n\n単なるAI人気ではなく、既存の収益計画が実現する確率の上昇を買った、という説明が最も強い。前受資金はGPU調達の一部を支え、売上の見通しを改善する。弱気側が「受注は見せかけ」と主張するなら、実際の入金という反証に答える必要がある。\n\nただし、D01はこの案件が既存通期予想に織り込まれていると明記する。7月想定から稼働が遅れ、今期案件売上は想定より減る一方、契約単価上昇で案件利益は増える見通し。したがって、今回の年額をそのまま既存予想に足す計算は二重計上になる。\n\n## 上昇分と全体評価\n\n8月25日の総発行37,599,951株を固定すると、9月25日の比較用総額は780.95億円、18日からの株価上昇分は201.16億円（自己株含む、当日実株数ではない）。議決権のない株数を自己株数とみなさず、同日基準の自己株除外時価総額はnullとした。[株数 D04](https://www.datasection.co.jp/en-financial-report/en-ir-20260903001.pdf)\n\n1Q短信の会社予想EPS179.31～231.45円に対して、2,077円は約8.97～11.58倍。表示サイトのPER7.49倍とは採用EPSが異なるため置き換えない。短信には旧大型案件終了の影響を別の案件で補う見込みや、案件組成・紹介手数料の計上もあり、予想達成と利益の持続性は独立した検証課題である。[1Q短信 D03](https://www.datasection.co.jp/en-financial-report/en-ir-20260814002.pdf)\n\n現在価格を支える持続EPSは、仮にPER15倍なら138.47円、20倍なら103.85円、25倍なら83.08円。倍率は適正値の認定ではない。会社予想を達成し反復できるなら、今の価格を説明できる余地はある。必要条件は、希薄化後も利益が株当たりに残ること、既存予想中の案件が売上・現金回収に移ること、継続投資を賄えること。売上成長率だけでは足りない。",
-            "counterevidence": "## 強気・基本・弱気と反証\n\n|想定|前提|見方を変える証拠|\n|---|---|---|\n|強気|残金受領・融資実行・年内フル提供、顧客継続、希薄化後利益の持続|実稼働、稼働率、回収、利払い後CFがそろえば、現在価格の正当化は強まる|\n|基本|契約は有効、稼働・採算・他案件は検証中。延長2年は確定扱いしない|月次稼働進捗と次期決算で更新|\n|弱気|融資・設備・電力の遅延、追加希薄化、利益が一時的|前受金入金は既に反証。さらに融資・稼働・継続回収が確認されれば、履行不能を主因とする弱気仮説を撤回|",
-            "next_checks": "## 値動き段階と次の確認\n\n25日の出来高は24日の約1.50倍で、2日連続の大幅上昇。材料の実現確度を再評価する初動～継続局面との解釈。ただし自動タイミング判定や天井判定は実施していない。\n\n次は残金の受領（開示上30日以内）、融資契約、10月の稼働開始、11～12月のフル提供、通期予想と株数の更新を確認する。予約は登録していない。顧客が撤退、前受金返還、融資不成立、稼働計画の重大な延期なら「履行確度改善による上昇」という基本見立てを取り下げる。反対に安定稼働と希薄化後利益が確認されれば、資金不足中心の懸念を引き下げる。\n\n結論：上昇には合理的な材料がある。201.16億円の増分を契約の売上額だけで正当化することも、DCF未計算を理由に不当と断定することもできない。"
-          }
-        },
-        {
-          "revision": "703d7352b7f872168123bb5087ea3196d5a334ef81493326786ff2726a31eced",
-          "recorded_at": "2026-09-27T07:50:26.635439+00:00",
-          "update_status": "CHANGED",
-          "work_card": {
-            "label": "追加確認を優先",
-            "view": "継続利益と希薄化を分けない低PER評価は保留",
-            "catalyst": "初回入金でGPU契約が発効",
-            "counterevidence": "残存18か月の推定粗利益を参考に手数料を交渉したとの会社説明。実際の初回入金も契約の実効性を支持",
-            "next_condition": "残金入金・借入成立・稼働・手数料以外の利益",
-            "company_deadline": "残金は9月24日から30日以内、段階稼働10月・全面11～12月",
-            "self_review_window": "9月28日以降、10月末、次四半期資料",
-            "if_met": "実行と継続利益が確認できれば支持、遅延・下方修正なら警戒",
-            "if_not": "追加確認を維持。無開示のみで不履行認定しない",
-            "price_stage": "契約材料を受けた複数日上昇・出来高拡大",
-            "changes": {
-              "price_update": false,
-              "new_market_news_since_prior": null,
-              "research_supplement": true,
-              "research_clarification": true,
-              "fetch_failure_unknown": false
-            },
-            "evidence": {
-              "issuer_claims": [
-                "初回入金0.9855億ドル、契約発効を会社が開示",
-                "通期純利益予想は8,704百万円、EPS幅は株数による",
-                "旧案件手数料は残り18か月の推定粗利益を交渉参考"
-              ],
-              "observed_facts": [
-                "前版価格時点は9月25日。今取引日の追加はない"
-              ],
-              "analysis_assumptions": [
-                "実行リスク低下は評価上昇の理由になり得る",
-                "PER20倍は感応度目盛のみ"
-              ],
-              "unconfirmed": [
-                "継続利益内訳",
-                "借入最終契約",
-                "残金・稼働",
-                "現在の完全希薄化株数"
-              ]
-            },
-            "source_ids": [
-              "D01",
-              "D02",
-              "D03",
-              "D06"
-            ]
-          },
-          "work_analysis": {
-            "justification": "## 上昇の説明と現在の見立て\n\n**見立て：受注の実効性は前進したが、継続利益で割安と結論するには不足。** 合理的な買い手は、契約の広告的な最大額よりも、初回入金による実行リスクの低下を評価できる。\n\n事実（会社開示）：9月18日のGPU契約は3年、追加2年は顧客の選択権。9月24日に預り金総額1.314億ドルのうち0.9855億ドルを受領し契約発効、残り0.3285億ドルは同日から30日以内の見込み。入金は売上・利益・自由に使えるFCFとは異なる。未取得GPUへの支払いと借入調達が伴う。[D01](https://www.datasection.co.jp/en-financial-report/en-ir-20260918002.pdf)、[D02](https://www.datasection.co.jp/en-financial-report/en-ir-20260924001.pdf)\n\n時系列：前回保存の開示配信時刻では9月18日19:30の契約資料→24日終値1,807円→24日15:40の入金開示→25日2,077円。24日の上昇を引け後の入金開示で説明してはいけない。今回、会社英語IR一覧の最新掲載は24日の入金資料まで確認した。時刻の原典照合は前版の二次配信記録を継承。",
-            "counterevidence": "## 反証とシナリオ\n\n強気：残金入金・借入成立・設備稼働が予定どおり進み、手数料以外の利益と営業キャッシュ創出が立ち上がる。基本：契約発効は採用、継続利益は保留。弱気：追加遅延、顧客不履行、金利・設備費増、利益成長を上回る希薄化。\n\n弱気への重要な反証は、既に大きな初回入金があったという会社開示。契約が単なる構想との見方は取り下げる。反対に低PERだけを理由とする強気論は、継続利益の内訳が出るまで採用しない。各シナリオに確率は付けない。",
-            "next_checks": "## 次の確認と見方を変える条件\n\n会社の予定：残金は9月24日から30日以内、段階稼働は10月、全面稼働は11～12月。暦日計算上の残金目安10月24日は銀行営業日の調整を確認していない。自分の再確認目安は9月28日以降の開示、10月末、次の四半期資料。予約登録はしていない。\n\n残金・借入条件・稼働・手数料以外の営業利益が確認できれば「上昇を説明できる」側へ更新。遅延や利益下方修正なら期待先行への警戒を強める。開示が出ないだけなら不履行とはしない。観測段階は契約材料を受けた複数日上昇と出来高拡大まで。天井・反落日・売買勝率は不明。"
-          }
-        },
-        {
-          "revision": "3050caf1b203413b7b04930fd4953e5bcbce471116cc2061f22f6f1efe4c1f54",
-          "recorded_at": "2026-09-27T12:35:49.128398+00:00",
-          "update_status": "CHANGED",
-          "work_card": {
-            "label": "追加確認を優先",
-            "view": "需要と入金は上昇を支持。設備回収・継続利益・期末希薄化の確認まで全体評価は保留",
-            "catalyst": "初回入金でGPU契約が発効",
-            "counterevidence": "大口入金と顧客側の計算資源需要。前受・長期契約で設備投資リスクを下げられる可能性",
-            "next_condition": "残金・融資・受電と検収、手数料以外の利益、更新費、最新権利残高",
-            "company_deadline": "残金は9月24日から30日以内、権利行使期間末10月19日（8月資料）、段階稼働10月・全面11～12月",
-            "self_review_window": "9月28日以降、10月末、次四半期資料 (manual only; no schedule registered)",
-            "if_met": "利益と再投資後現金が株数増を上回れば、持続利益による評価の裏付けを強める",
-            "if_not": "履行遅延・借入不成立・回収悪化が確認されれば慎重化。無開示だけでは失敗認定しない",
-            "price_stage": "契約材料を受けた複数日上昇・出来高拡大",
-            "changes": {
-              "price_update": false,
-              "new_market_news_since_prior": null,
-              "research_supplement": true,
-              "research_clarification": true,
-              "fetch_failure_unknown": false
-            },
-            "evidence": {
-              "observed_facts": [
-                "9月25日終値2077円を今回再取得。同日付・同値で価格更新なし",
-                "9月27日のIR一覧で先頭は9月24日。網羅的無開示保証ではない"
-              ],
-              "issuer_claims": [
-                "初回9855万ドルを受領して契約発効",
-                "3年契約と買い手選択2年、残GPU費255.4百万ドル",
-                "8月14日時点の未行使第23回権利は30207100株、行使期限10月19日"
-              ],
-              "analysis_assumptions": [
-                "3年売上から残GPU代を引く費用前余地を検算。利益やFCFではない",
-                "平均株数幅を完全希薄化上限としない",
-                "同日PRと詳細開示は同一取引と暫定解釈し二重加算しない"
-              ],
-              "unconfirmed": [
-                "顧客名・原契約条項・信用",
-                "同時点の株数、現金負債、最新権利残高",
-                "電力・維持更新・税・利息後の継続利益",
-                "9月案件と過去設備計画の同一性"
-              ]
-            },
-            "source_ids": [
-              "D01",
-              "D02",
-              "D03",
-              "D06",
-              "D07",
-              "D08",
-              "D09",
-              "C01",
-              "C02",
-              "C03",
-              "C04",
-              "C05",
-              "ND"
-            ]
-          },
-          "work_analysis": {
-            "justification": "## 上昇の説明と現在の見立て\n\n**合理的な強気説明を先に置く。** AI計算資源を必要とする買い手に、電力・設備・運用をまとめて提供できれば、GPU単体の転売を超えた価値がある。年1.752億ドルの契約に初回0.9855億ドルの入金があったとの会社開示は、単なる提携期待より強い証拠。設備代の一部を顧客前受金で賄う設計も、事業実現を支える。既存予想に入っていた案件でも、実行確度の改善が評価上昇を説明し得る。追加売上を従来予想へ丸ごと加算する意味ではない。[D01,D02]\n\n見立ては「需要と契約の実体には合理的な裏付けがある。現在株価全体を持続利益で説明できるかは未確認」。一律の割高・空売り結論は出さない。今回の進展は、設備原価の回収条件、実行制約、平均株数と潜在株数の区別。全社DCF未完成でもこの部分評価は可能。",
-            "counterevidence": "## 反証とシナリオ\n\n|シナリオ|成立に必要な条件・根拠|感応度と見方|\n|---|---|---|\n|強気|残金・融資・受電・検収が揃い、3年契約代金を回収。非GPU費用等が回収余地内に収まり、他契約も稼働。入金[D02]と買い手需要[C03]が支持|基本の年90.07百万ドルは費用前余地。利益確定ではない。更新・再販・他契約利益が実証されれば持続利益による株価説明を強める|\n|基本|3年契約を中心に評価し、選択2年・次世代更新・未成約パイプラインの利益を未評価。資金と稼働を段階確認|0/10/20%費用増、100/90/80%回収は感応度で予測レンジではない。適正価格は保留|\n|弱気|遅延、減額・解約、費用増、短期回収困難、顧客集中、借入不成立、追加希薄化で一株利益が伸びない|実契約条項による影響額は未計算。需要一般の強さだけでは当社の履行問題を打ち消せない|\n\n弱気仮説の最大の反証は、大口入金を伴う顧客の関与と、業界で継続する計算資源需要。GPUが再利用・再販でき、前受と長期契約で調達リスクを抑えられれば株主価値は増え得る。逆に「AI需要がない」「将来更新費は必ず全額同額」「未開示だから契約は無効」とは主張しない。",
-            "next_checks": "## 次の確認と見方を変える条件\n\n|確認条件|会社の予定／自主目安|成立した場合の変更／崩れた場合|\n|---|---|---|\n|残32.85百万ドル入金と124百万ドルの資金調達条件|残金は9月24日から30日以内。融資の確定期限未開示|成立・資金費用が許容範囲なら実行懸念を下げる。不成立や高コストなら回収余地を再計算。無開示だけで不履行認定しない|\n|第23回権利の最新残高・調達用途|資料上行使期間末10月19日。最新開示を自主確認、予約なし|株数と調達資産を同時更新。平均株数と期末潜在株数を混ぜない。失効でも資金不足との交換条件を評価|\n|受電・納入・顧客検収・請求開始|段階10月、全面11～12月という会社予定|予定どおりなら強気を補強。遅延・容量縮小・SLA負担なら下方に修正|\n|継続利益と更新後現金|次四半期資料・通期計画、自主確認|手数料以外の利益・金利・更新資金まで一株利益目盛を支えるなら保留を解除。損失・回収不能が裏付けられれば慎重化|\n\n足元は9月18日終値1,542円→24日1,807円→25日2,077円という複数日上昇。25日高値2,187円、出来高22,040,900株を今回再照合。これだけで転換・売り時は認定しない。価格更新なし、分析追補あり。\n\n原典URL・公開日・取得範囲はsources.md/json、仮定と34件の再計算はresearch_data.json/calculations.json。正式verdict=null、執行評価NOT_EVALUATED。"
-          }
-        },
-        {
-          "revision": "a0a1bdfc59615fd0633b043b8dc5d60dd0df7db9dbec51609762086d2f0f1697",
-          "recorded_at": "2026-10-04T07:29:19.709293+00:00",
-          "update_status": "CHANGED",
-          "work_card": {
-            "label": "企業価値全体はUNKNOWN",
-            "view": "入金と運営体制は強気側の根拠。持続利益・資金・最新資本を確認するまでUNKNOWN",
-            "catalyst": "大口前受を伴う受注発効とタイ運営主体整備",
-            "counterevidence": "実際の大口前受は需要否定への反証。稼働・残入金・融資成立は別に未確認",
-            "next_condition": "残入金、124百万USD融資、有償稼働、同時点の資本・最新価格、継続現金",
-            "company_deadline": "残金は9月24日から30日以内の会社予定。段階開始10月、全面11～12月の予定",
-            "self_review_window": "新開示または次決算の実観測時; manual only",
-            "if_met": "費用・更新後の持続現金で全体評価を裏付ければ合理性を強める",
-            "if_not": "実証された不履行・融資不成立・費用悪化のみ慎重化",
-            "price_stage": "現在価格は未取得。旧9月25日価格は過去の比較基準",
-            "changes": {
-              "price_update": false,
-              "new_market_news_since_prior": true,
-              "research_supplement": true,
-              "research_clarification": true,
-              "fetch_failure_unknown": false
-            },
-            "evidence": {
-              "observed_facts": [
-                "会社リンクの559件IRフィードを取得し先頭10月1日17:20を確認",
-                "current price未取得、8欠損をnull保全"
-              ],
-              "issuer_claims": [
-                "初回98.55百万USD入金で発効",
-                "タイ増資後資本金675086000THB、業績重要影響なし"
-              ],
-              "analysis_assumptions": [
-                "新受注と旧設備案件の対応を仮定しない",
-                "参考粗利率を実績マージンへ変換しない"
-              ],
-              "unconfirmed": [
-                "最新資本基準・融資希薄化モデル・持続FCFF・現在価格"
-              ]
-            },
-            "source_ids": [
-              "D01",
-              "D02",
-              "D03",
-              "THAI_MOU",
-              "IR_RSS",
-              "TDNET_20261001",
-              "IR_FEED",
-              "SEP3_CAPITAL",
-              "AUG18_PRESENTATION",
-              "JUN4_B200",
-              "IR_INDEX",
-              "JPX_CALENDAR"
-            ]
-          },
-          "work_analysis": {
-            "justification": "## 上昇の説明と現在の見立て\n\n結論はUNKNOWN。初回98.55百万USDの顧客前受入金によるGPU受注発効は、需要・実行確度の改善という強気側の合理的な証拠。10月1日開示ではタイ運営子会社の資本金が675,086,000THB、会社換算3,166百万円となり、連結化・運営体制の進展を確認できる。ただし増資後資本金と増資差額を区別し、増資を売上や利益、新しい外部資金と扱わない。同開示は連結業績への重要な影響なしとしている。\n\n9月の匿名顧客案件とタイ子会社・8月MOU・6月B200設備計画は、会社による明示的対応が未確認。金額や時期が近いだけで同じ案件と認定せず、受注を二重加算しない。契約は年175.2百万USD、3年525.6百万USD。顧客選択の追加2年を確定受注に足さない。既存予想への織込みを新規売上増分と混同しない。\n\n10月4日の無料一次資料再読により、公式IRの会社リンク先559件フィードは取得時点で10月1日17:20 JSTを最新と表示し、10月2日付の項目は見当たらなかった。確認したフィード内の観測であり、会社全情報の網羅や市場の変化なしの保証ではない。前回のRSS TLS失敗は通常TLS検証の取得成功で解消し、9月18日19:30 JST・9月24日15:40 JST・10月1日17:20 JSTという開示日時を区別して保存した。再取得した資料の数値は会社主張であり、銀行・顧客の独立確認ではない。",
-            "counterevidence": "## 反証とシナリオ\n\n強気：残入金・融資・電力・納入・検収が整い、顧客支払いから全費用と更新投資を賄って持続的株主現金を生めるなら上昇の合理性を強める。顧客延長や追加案件は確認された範囲で別評価する。\n\n基本：確定3年と各履行条件を段階評価し、残入金・融資・有償稼働を未確認のまま保持。全体評価は保留。\n\n慎重：裏付けられた融資不成立・入金不履行・重大な費用増・希薄化があれば価値への影響を検討する。価格下落、10月4日時点の残金無開示、一般的なAI期待だけでは結論を決めない。大口前受を伴う発効は「需要がない」という弱気仮説への反証。",
-            "next_checks": "## 次の確認と見方を変える条件\n\n- 残32.85百万USDの受領を初回分と分けて確認。会社予定は9月24日から30日以内で、10月4日時点では期間途中\n- 124百万USD融資の契約、実行、金利、担保、返済、設備支払時期を確認\n- 10月段階稼働・11～12月全面稼働について受電・納入・検収・請求可能容量・実際の有償利用を確認\n- 9月案件とタイ運営主体等の明示的対応を確認。確認前の合算をしない\n- 同時点の株数、自己株、残存予約権、払込資金使途、現金・負債を確認。8月時点の残存権利・株数は現時点の代用にしない\n- 手数料以外の継続利益と営業費・金利・税・更新後の現金を確認。現在評価が要求する規模を満たせばJUDGED_JUSTIFIEDを再検討\n- 最新の許諾された価格入力を取得するまで、現在株価全体・増分の定量評価を進めない"
-          }
-        },
-        {
-          "revision": "6c49a33ef4cb6dcfa9a01fa55c358dc608e4cc798154fe283c4e690ad8073c74",
-          "recorded_at": "2026-10-04T10:44:43.934828+00:00",
-          "update_status": "NOT_OBSERVED",
-          "work_card": {
-            "label": null,
-            "view": null,
-            "catalyst": null,
-            "counterevidence": null,
-            "next_condition": null,
-            "company_deadline": null,
-            "self_review_window": null,
-            "if_met": null,
-            "if_not": null,
-            "price_stage": null,
-            "changes": null,
-            "evidence": null,
-            "source_ids": null
-          },
-          "work_analysis": {
-            "justification": null,
-            "counterevidence": null,
-            "next_checks": null
-          }
-        }
-      ],
-      "work_report_text": "## 上昇の説明と現在の見立て\n\n結論はUNKNOWN。初回98.55百万USDの顧客前受入金によるGPU受注発効は、需要・実行確度の改善という強気側の合理的な証拠。10月1日開示ではタイ運営子会社の資本金が675,086,000THB、会社換算3,166百万円となり、連結化・運営体制の進展を確認できる。ただし増資後資本金と増資差額を区別し、増資を売上や利益、新しい外部資金と扱わない。同開示は連結業績への重要な影響なしとしている。\n\n9月の匿名顧客案件とタイ子会社・8月MOU・6月B200設備計画は、会社による明示的対応が未確認。金額や時期が近いだけで同じ案件と認定せず、受注を二重加算しない。契約は年175.2百万USD、3年525.6百万USD。顧客選択の追加2年を確定受注に足さない。既存予想への織込みを新規売上増分と混同しない。\n\n10月4日の無料一次資料再読により、公式IRの会社リンク先559件フィードは取得時点で10月1日17:20 JSTを最新と表示し、10月2日付の項目は見当たらなかった。確認したフィード内の観測であり、会社全情報の網羅や市場の変化なしの保証ではない。前回のRSS TLS失敗は通常TLS検証の取得成功で解消し、9月18日19:30 JST・9月24日15:40 JST・10月1日17:20 JSTという開示日時を区別して保存した。再取得した資料の数値は会社主張であり、銀行・顧客の独立確認ではない。\n\n## 評価全体と価値増分\n\n残GPU取得費255.4百万USDに対し初回前受のみの差は156.85百万USD。計画前受131.4百万USDを全額受領しても差は124百万USDで、借入の成立・実行・返済条件が必要。3年契約額から残GPU代だけを引いた270.2百万USDは他の費用前の条件付き余地であり、利益やFCFFではない。前受は契約売上に追加しない。電力、運営、税、金利、総設備投資、運転資金、GPU更新等を引く必要がある。\n\nQ1売上6,327百万円・純利益3,913百万円には組成・紹介手数料売上5,578百万円が含まれる。費用・税配賦不明のため、手数料売上を純利益から直接控除して継続利益を作らない。通期純利益予想8,704百万円は実績でない。\n\n旧9月25日終値2,077円・歴史的総発行済37,599,951株による78,095,098,227円、9月18日1,542円からの増分20,115,973,785円、PER20の目盛で必要純利益3,904,754,911.35円は固定の比較用検算。現在の株価・自己株控除後・完全希薄化時価総額ではない。10月4日は日曜日、JPX日程上の直近完了予定取引日は10月2日。今回その価格を取得していないため現在価格・現在時価総額はnull、旧価格を更新していない。\n\n継続FCFFと同時点の株数・現金・負債・希薄化条件が未確定。既存の固定計算エンジンへの明示入力はunconfirmed/requires_extensionを維持し、INPUT_REQUIRED / UNSUPPORTED_FINANCINGのまま。全体適正価値、価値増分、目標価格はいずれもnull。モデル未対応を経済価値ゼロや過熱の証明と解釈しない。\n\n## 反証とシナリオ\n\n強気：残入金・融資・電力・納入・検収が整い、顧客支払いから全費用と更新投資を賄って持続的株主現金を生めるなら上昇の合理性を強める。顧客延長や追加案件は確認された範囲で別評価する。\n\n基本：確定3年と各履行条件を段階評価し、残入金・融資・有償稼働を未確認のまま保持。全体評価は保留。\n\n慎重：裏付けられた融資不成立・入金不履行・重大な費用増・希薄化があれば価値への影響を検討する。価格下落、10月4日時点の残金無開示、一般的なAI期待だけでは結論を決めない。大口前受を伴う発効は「需要がない」という弱気仮説への反証。\n\n## 次の確認と見方を変える条件\n\n- 残32.85百万USDの受領を初回分と分けて確認。会社予定は9月24日から30日以内で、10月4日時点では期間途中\n- 124百万USD融資の契約、実行、金利、担保、返済、設備支払時期を確認\n- 10月段階稼働・11～12月全面稼働について受電・納入・検収・請求可能容量・実際の有償利用を確認\n- 9月案件とタイ運営主体等の明示的対応を確認。確認前の合算をしない\n- 同時点の株数、自己株、残存予約権、払込資金使途、現金・負債を確認。8月時点の残存権利・株数は現時点の代用にしない\n- 手数料以外の継続利益と営業費・金利・税・更新後の現金を確認。現在評価が要求する規模を満たせばJUDGED_JUSTIFIEDを再検討\n- 最新の許諾された価格入力を取得するまで、現在株価全体・増分の定量評価を進めない\n\n## 追加の資本・予想資料の注意\n\n8月18日17:33 JSTの会社説明資料p28（印字27）は、8月14日時点の第23回新株予約権の累計行使13,792,900株・払込17,241百万円・残30,207,100株・行使価額1,250円・期限10月19日を示す。9月3日11:30 JSTの主要株主開示p2は8月25日時点の発行済37,599,951株を明記。ただしいずれも10月4日時点の残高を確定しない。\n\n同説明資料p21（印字20）のGPUaaS粗利率20～35%・TOKENaaS70～90%は業態特性の参考イメージであり、会社実績や業績予想としてDCFへ代入しない。p26（印字25）は旧追加サービス79,864百万円の中止と手数料5,578百万円への変更、別の見込受注等で通期売上予想162,193百万円を維持する構成を示す。これは継続利益の確定値ではなく、予想の受注・履行条件を確認すべき理由になる。6月設備計画の円建て借入と9月案件のUSD124百万融資を、案件対応の明示なしに合算しない。",
-      "work_calculations": [],
-      "work_assumptions": [],
-      "codex_unanswered_questions": [
-        "一時手数料に対応する費用・税を確認した継続純利益はどれだけか。",
-        "GPU更新投資・電力・稼働率・融資・顧客集中を入れて、契約期間内にいくら現金が残るか。",
-        "追加2年の選択権、既存予想、増分利益を二重計上していないか。"
-      ],
-      "price_confirmation": {
-        "status": "WEB_CONFIRMED_NOT_REPUBLISHED",
-        "session_date": "2026-10-02",
-        "as_of": "2026-10-02T15:30:00+09:00",
-        "observed_at": "2026-10-04T21:33:00+09:00",
-        "kind": "session_close",
-        "public_numeric_republication": "not_authorized",
-        "note": "依頼時にWebで終値を確認。株価数値の継続配信は行いません。出典ページを参照してください。",
-        "sources": [
-          {
-            "title": "データセクション 株価時系列（2026-10-02終値確認）",
-            "provider": "Yahoo Finance Japan",
-            "url": "https://finance.yahoo.co.jp/quote/3905.T/history"
-          },
-          {
-            "title": "データセクション 株価時系列（2026-10-02終値確認）",
-            "provider": "Kabutan",
-            "url": "https://s.kabutan.jp/stocks/3905/historical_prices/daily/"
-          }
-        ]
-      },
-      "price_observation_status": "WEB_CONFIRMED_NOT_REPUBLISHED"
-    },
     {
       "event_id": "JP-WEB-410A-20260925",
       "ticker": "410A",
@@ -510,9 +16,9 @@
       "progress": "WORK_DRAFT_AVAILABLE",
       "price_as_of": null,
       "research_recorded_at": "2026-10-04T10:44:43.934828+00:00",
-      "latest_check_at": "2026-10-04T10:44:43.934828Z",
-      "update_status": "CHANGED",
-      "change_label": "保存研究の差分：価格更新不明 / 新しい市場情報あり（Work記録） / 研究追補あり / 分析の解釈を補正",
+      "latest_check_at": "2026-10-22T02:17:39.848806Z",
+      "update_status": "NOT_OBSERVED",
+      "change_label": "保存研究の差分：今回未観測・変化不明（前回資料）",
       "work_card": {
         "label": "根拠更新・全体評価保留",
         "view": "取得完了が実行面を支持。通年利益・買収後資本は次の決算で確認",
@@ -800,6 +306,56 @@
             "counterevidence": "## 反証とシナリオ\n\n取得完了は「買収が実現しない」弱気仮説への反証。ただし広告売上拡大を純利益増と混同しない。買収費用、借入金利、PPA/のれん、獲得顧客維持、統合費用が一株利益へ残るかを確認する。旧版の472/473百万円差と代数的22.90%は履歴として維持し、新資料で解消したとは扱わない。",
             "next_checks": "## 次の確認と見方を変える条件\n\n次決算で連結化範囲、通年純利益、PPA/のれん、実行借入金利・返済、自己株除外株数を確認。費用控除後の持続利益が増え、同時点資本と最新許諾価格が揃えば全体評価を進める。利益悪化ならクロスセル仮説を再審査。"
           }
+        },
+        {
+          "revision": "e198a5917dcf828d26a607dbd2a911bc8632df6003dc09f9d9c280b2944af1ac",
+          "recorded_at": "2026-10-22T02:15:26.844355+00:00",
+          "update_status": "NOT_OBSERVED",
+          "work_card": {
+            "label": null,
+            "view": null,
+            "catalyst": null,
+            "counterevidence": null,
+            "next_condition": null,
+            "company_deadline": null,
+            "self_review_window": null,
+            "if_met": null,
+            "if_not": null,
+            "price_stage": null,
+            "changes": null,
+            "evidence": null,
+            "source_ids": null
+          },
+          "work_analysis": {
+            "justification": null,
+            "counterevidence": null,
+            "next_checks": null
+          }
+        },
+        {
+          "revision": "6a3734e3ac6c80143a1efcdf0de60d98546ac96a1c9ac2d30c56efa44991ddfa",
+          "recorded_at": "2026-10-22T02:17:39.848806+00:00",
+          "update_status": "NOT_OBSERVED",
+          "work_card": {
+            "label": null,
+            "view": null,
+            "catalyst": null,
+            "counterevidence": null,
+            "next_condition": null,
+            "company_deadline": null,
+            "self_review_window": null,
+            "if_met": null,
+            "if_not": null,
+            "price_stage": null,
+            "changes": null,
+            "evidence": null,
+            "source_ids": null
+          },
+          "work_analysis": {
+            "justification": null,
+            "counterevidence": null,
+            "next_checks": null
+          }
         }
       ],
       "work_report_text": "## 上昇の説明と現在の見立て\n\n10月1日付でGMO NIKKOとGMOインサイトの全株取得が完了し、連結子会社化したと会社が開示（G_ACQUIRED pp1–2）。前回は予定だったため実行面の不確実性が一つ下がった。現金支払・借入実行条件をこれだけで確認済みとはしない。\n\nG_LAUNCH p2の図表と本文を確認。2026年12月期会社予想は売上5,656百万円、営業利益740百万円、経常利益730百万円、親会社純利益440百万円。前回の9/24修正を再掲したもので、10/1にさらに同額を上乗せした新規予想ではない。今期寄与は10〜12月の3か月。2027年の売上100億円超・営業利益10億円超は単純合算の事業規模で、税引後利益・確定シナジー・適正価値ではない。\n\n買い手の合理性は利益実績のある事業を取り込み、通年連結と顧客基盤クロスセルの余地を評価すること。最新価格がないため、9/25の株価と今回新情報の前後価格比較はしない。\n\n## 反証とシナリオ\n\n取得完了は「買収が実現しない」弱気仮説への反証。ただし広告売上拡大を純利益増と混同しない。買収費用、借入金利、PPA/のれん、獲得顧客維持、統合費用が一株利益へ残るかを確認する。旧版の472/473百万円差と代数的22.90%は履歴として維持し、新資料で解消したとは扱わない。\n\n## 次の確認と見方を変える条件\n\n次決算で連結化範囲、通年純利益、PPA/のれん、実行借入金利・返済、自己株除外株数を確認。費用控除後の持続利益が増え、同時点資本と最新許諾価格が揃えば全体評価を進める。利益悪化ならクロスセル仮説を再審査。",
@@ -840,9 +396,9 @@
       "progress": "WORK_DRAFT_AVAILABLE",
       "price_as_of": null,
       "research_recorded_at": "2026-10-04T10:44:43.934828+00:00",
-      "latest_check_at": "2026-10-04T10:44:43.934828Z",
-      "update_status": "CHANGED",
-      "change_label": "保存研究の差分：価格更新不明 / 新しい市場情報あり（Work記録） / 研究追補あり / 分析の解釈を補正",
+      "latest_check_at": "2026-10-22T02:17:39.848806Z",
+      "update_status": "NOT_OBSERVED",
+      "change_label": "保存研究の差分：今回未観測・変化不明（前回資料）",
       "work_card": {
         "label": "根拠更新・全体評価保留",
         "view": "子会社配当を連結増益へ加算しない。既存の利益改善は継続確認",
@@ -1113,6 +669,56 @@
             "counterevidence": "## 反証とシナリオ\n\n配当の存在は資金還流を支持するが、連結利益の上方修正ではない。事業収益の悪化や一時要因への反証は今後の受注、地域別採算と中間利益に求める。現在価格・新リターンは未取得。",
             "next_checks": "## 次の確認と見方を変える条件\n\n中間決算で売上減でも利益が残るか、改善要因が継続するか、連結営業キャッシュと設備投資を照合。持続改善なら強気説明を強める。配当約3.17億円を全体利益へ加えるモデルは棄却。"
           }
+        },
+        {
+          "revision": "e198a5917dcf828d26a607dbd2a911bc8632df6003dc09f9d9c280b2944af1ac",
+          "recorded_at": "2026-10-22T02:15:26.844355+00:00",
+          "update_status": "NOT_OBSERVED",
+          "work_card": {
+            "label": null,
+            "view": null,
+            "catalyst": null,
+            "counterevidence": null,
+            "next_condition": null,
+            "company_deadline": null,
+            "self_review_window": null,
+            "if_met": null,
+            "if_not": null,
+            "price_stage": null,
+            "changes": null,
+            "evidence": null,
+            "source_ids": null
+          },
+          "work_analysis": {
+            "justification": null,
+            "counterevidence": null,
+            "next_checks": null
+          }
+        },
+        {
+          "revision": "6a3734e3ac6c80143a1efcdf0de60d98546ac96a1c9ac2d30c56efa44991ddfa",
+          "recorded_at": "2026-10-22T02:17:39.848806+00:00",
+          "update_status": "NOT_OBSERVED",
+          "work_card": {
+            "label": null,
+            "view": null,
+            "catalyst": null,
+            "counterevidence": null,
+            "next_condition": null,
+            "company_deadline": null,
+            "self_review_window": null,
+            "if_met": null,
+            "if_not": null,
+            "price_stage": null,
+            "changes": null,
+            "evidence": null,
+            "source_ids": null
+          },
+          "work_analysis": {
+            "justification": null,
+            "counterevidence": null,
+            "next_checks": null
+          }
         }
       ],
       "work_report_text": "## 上昇の説明と現在の見立て\n\n公式の動的一覧をクラウドブラウザで確認し、9/30新開示を特定。H_DIV p1は連結子会社から200万USD（約317百万円、資料の換算158.74円/USD）の配当を2026年10月に受領予定とする。実際の受領完了とは書かない。\n\nこの金額は2027年3月期の個別決算の営業外収益。資料は連結業績への影響なしと明記。グループ内の資金移動を全社の追加利益・価値増分へ足さない。既存の四半期利益改善と収益構造改革が強気側の説明であり、今回の配当だけではその持続性を新たに証明しない。\n\n## 反証とシナリオ\n\n配当の存在は資金還流を支持するが、連結利益の上方修正ではない。事業収益の悪化や一時要因への反証は今後の受注、地域別採算と中間利益に求める。現在価格・新リターンは未取得。\n\n## 次の確認と見方を変える条件\n\n中間決算で売上減でも利益が残るか、改善要因が継続するか、連結営業キャッシュと設備投資を照合。持続改善なら強気説明を強める。配当約3.17億円を全体利益へ加えるモデルは棄却。",
@@ -1153,9 +759,9 @@
       "progress": "WORK_DRAFT_AVAILABLE",
       "price_as_of": null,
       "research_recorded_at": "2026-10-04T10:44:43.934828+00:00",
-      "latest_check_at": "2026-10-04T10:44:43.934828Z",
-      "update_status": "CHANGED",
-      "change_label": "保存研究の差分：価格更新不明 / 新しい市場情報あり（Work記録） / 研究追補あり / 分析の解釈を補正",
+      "latest_check_at": "2026-10-22T02:17:39.848806Z",
+      "update_status": "NOT_OBSERVED",
+      "change_label": "保存研究の差分：今回未観測・変化不明（前回資料）",
       "work_card": {
         "label": "根拠更新・全体評価保留",
         "view": "海外の試験導入と規制需要は支持。商用数量・利益・資金は未確認",
@@ -1459,6 +1065,56 @@
             "counterevidence": "## 反証とシナリオ\n\n実導入の会社記録と制度変更は海外需要が存在しないという弱気仮説への反証。ただし競合衣服、代替対策、顧客の既所有衣服があり、制度を独占市場とみなせない。9/15下方修正、財務条項、借入と可変行使価格の希薄化を新PRで解消扱いにしない。",
             "next_checks": "## 次の確認と見方を変える条件\n\n有償商用導入、顧客数・数量・単価・粗利、販売供給体制、既存事業回復、条項対応と最新権利月次を確認。利益が希薄化後の一株利益へ残れば強気合理性を強める。数量がない間は海外TAMから売上を推測しない。"
           }
+        },
+        {
+          "revision": "e198a5917dcf828d26a607dbd2a911bc8632df6003dc09f9d9c280b2944af1ac",
+          "recorded_at": "2026-10-22T02:15:26.844355+00:00",
+          "update_status": "NOT_OBSERVED",
+          "work_card": {
+            "label": null,
+            "view": null,
+            "catalyst": null,
+            "counterevidence": null,
+            "next_condition": null,
+            "company_deadline": null,
+            "self_review_window": null,
+            "if_met": null,
+            "if_not": null,
+            "price_stage": null,
+            "changes": null,
+            "evidence": null,
+            "source_ids": null
+          },
+          "work_analysis": {
+            "justification": null,
+            "counterevidence": null,
+            "next_checks": null
+          }
+        },
+        {
+          "revision": "6a3734e3ac6c80143a1efcdf0de60d98546ac96a1c9ac2d30c56efa44991ddfa",
+          "recorded_at": "2026-10-22T02:17:39.848806+00:00",
+          "update_status": "NOT_OBSERVED",
+          "work_card": {
+            "label": null,
+            "view": null,
+            "catalyst": null,
+            "counterevidence": null,
+            "next_condition": null,
+            "company_deadline": null,
+            "self_review_window": null,
+            "if_met": null,
+            "if_not": null,
+            "price_stage": null,
+            "changes": null,
+            "evidence": null,
+            "source_ids": null
+          },
+          "work_analysis": {
+            "justification": null,
+            "counterevidence": null,
+            "next_checks": null
+          }
         }
       ],
       "work_report_text": "## 上昇の説明と現在の見立て\n\nL_SG_PILOT pp1–3を本文とp1画像で確認。9/30に会社が、シンガポールのSoilBuild現場でFREEZETECHを試験導入しCNA記事で紹介されたと開示。CNA記事の掲載日は8/28で、9/30開示日と混同しない。今回の新開示は過去9/25までの最初の上昇原因には使わない。\n\nMOMの8/28一次発表（L_MOM）を照合。12/1から適切な衣服など四つの対策を義務化する予定。L_MOM_FAQは通気性/吸湿性などを説明し、衣服支給以外に手当や既所有衣服も認める。特定のFREEZETECH購入義務は確認できない。\n\n合理的な強気説明は国内実績を海外の暑熱対策需要へ広げる販路とブランド認知。ただし今回資料は数量、販売単価、商用契約額、粗利、純利益を開示せず、全てnull。試験導入を大量受注・継続売上に変換しない。\n\n## 反証とシナリオ\n\n実導入の会社記録と制度変更は海外需要が存在しないという弱気仮説への反証。ただし競合衣服、代替対策、顧客の既所有衣服があり、制度を独占市場とみなせない。9/15下方修正、財務条項、借入と可変行使価格の希薄化を新PRで解消扱いにしない。\n\n## 次の確認と見方を変える条件\n\n有償商用導入、顧客数・数量・単価・粗利、販売供給体制、既存事業回復、条項対応と最新権利月次を確認。利益が希薄化後の一株利益へ残れば強気合理性を強める。数量がない間は海外TAMから売上を推測しない。",
@@ -1499,9 +1155,9 @@
       "progress": "WORK_DRAFT_AVAILABLE",
       "price_as_of": null,
       "research_recorded_at": "2026-10-04T10:44:43.934828+00:00",
-      "latest_check_at": "2026-10-04T10:44:43.934828Z",
-      "update_status": "CHANGED",
-      "change_label": "保存研究の差分：価格更新不明 / 確認範囲で新情報なし / 研究追補あり / 分析の解釈を補正",
+      "latest_check_at": "2026-10-22T02:17:39.848806Z",
+      "update_status": "NOT_OBSERVED",
+      "change_label": "保存研究の差分：今回未観測・変化不明（前回資料）",
       "work_card": {
         "label": "根拠更新・全体評価保留",
         "view": "初期の非拘束提案は維持。買収価格・会社判断は未確定",
@@ -1766,6 +1422,56 @@
             "counterevidence": "## 反証とシナリオ\n\n提案受領は純粋な噂という弱気説明への反証。同時に非拘束・初期段階で撤回や条件変更の余地があり、報道上の価格や任意の成立確率を入れない。事業そのものの価値と買収オプションを別軸にする。",
             "next_checks": "## 次の確認と見方を変える条件\n\n会社が発表する具体的価格、拘束性、資金、デューデリジェンス/承認条件、会社判断を待つ。正式提案なら条件付き価値を再審査、撤回ならオプション期待を外す。最新価格未取得のため現在の市場織込みは判定しない。"
           }
+        },
+        {
+          "revision": "e198a5917dcf828d26a607dbd2a911bc8632df6003dc09f9d9c280b2944af1ac",
+          "recorded_at": "2026-10-22T02:15:26.844355+00:00",
+          "update_status": "NOT_OBSERVED",
+          "work_card": {
+            "label": null,
+            "view": null,
+            "catalyst": null,
+            "counterevidence": null,
+            "next_condition": null,
+            "company_deadline": null,
+            "self_review_window": null,
+            "if_met": null,
+            "if_not": null,
+            "price_stage": null,
+            "changes": null,
+            "evidence": null,
+            "source_ids": null
+          },
+          "work_analysis": {
+            "justification": null,
+            "counterevidence": null,
+            "next_checks": null
+          }
+        },
+        {
+          "revision": "6a3734e3ac6c80143a1efcdf0de60d98546ac96a1c9ac2d30c56efa44991ddfa",
+          "recorded_at": "2026-10-22T02:17:39.848806+00:00",
+          "update_status": "NOT_OBSERVED",
+          "work_card": {
+            "label": null,
+            "view": null,
+            "catalyst": null,
+            "counterevidence": null,
+            "next_condition": null,
+            "company_deadline": null,
+            "self_review_window": null,
+            "if_met": null,
+            "if_not": null,
+            "price_stage": null,
+            "changes": null,
+            "evidence": null,
+            "source_ids": null
+          },
+          "work_analysis": {
+            "justification": null,
+            "counterevidence": null,
+            "next_checks": null
+          }
         }
       ],
       "work_report_text": "## 上昇の説明と現在の見立て\n\nK_PROPOSALの本文を再取得。NSSK/CVC関連法人の非公開化に係る法的拘束力のない初期共同提案の受領は会社が認めている。会社決定はないと記載。価格・資金調達・実行確率は未開示でnull。\n\nINDEX_4967の2026年ニュース一覧には9/29製品、10/2社会貢献の追加を確認したが、この観測一覧内で後続の非公開化条件は特定していない。すべての開示経路に条件が存在しないと断言しない。買い手の合理性は実在する初期提案をオプションとして評価すること。噂だけとして否定しない。\n\n## 反証とシナリオ\n\n提案受領は純粋な噂という弱気説明への反証。同時に非拘束・初期段階で撤回や条件変更の余地があり、報道上の価格や任意の成立確率を入れない。事業そのものの価値と買収オプションを別軸にする。\n\n## 次の確認と見方を変える条件\n\n会社が発表する具体的価格、拘束性、資金、デューデリジェンス/承認条件、会社判断を待つ。正式提案なら条件付き価値を再審査、撤回ならオプション期待を外す。最新価格未取得のため現在の市場織込みは判定しない。",
@@ -1806,7 +1512,7 @@
       "progress": "DISCOVERY_ONLY",
       "price_as_of": "2026-09-25T15:30:00+09:00",
       "research_recorded_at": "2026-09-27T07:50:26.635439+00:00",
-      "latest_check_at": "2026-10-04T10:44:43.934828Z",
+      "latest_check_at": "2026-10-22T02:17:39.848806Z",
       "update_status": "NOT_OBSERVED",
       "change_label": "今回未観測・変化不明（前回資料）",
       "work_card": {
@@ -2037,6 +1743,56 @@
             "counterevidence": null,
             "next_checks": null
           }
+        },
+        {
+          "revision": "e198a5917dcf828d26a607dbd2a911bc8632df6003dc09f9d9c280b2944af1ac",
+          "recorded_at": "2026-10-22T02:15:26.844355+00:00",
+          "update_status": "NOT_OBSERVED",
+          "work_card": {
+            "label": null,
+            "view": null,
+            "catalyst": null,
+            "counterevidence": null,
+            "next_condition": null,
+            "company_deadline": null,
+            "self_review_window": null,
+            "if_met": null,
+            "if_not": null,
+            "price_stage": null,
+            "changes": null,
+            "evidence": null,
+            "source_ids": null
+          },
+          "work_analysis": {
+            "justification": null,
+            "counterevidence": null,
+            "next_checks": null
+          }
+        },
+        {
+          "revision": "6a3734e3ac6c80143a1efcdf0de60d98546ac96a1c9ac2d30c56efa44991ddfa",
+          "recorded_at": "2026-10-22T02:17:39.848806+00:00",
+          "update_status": "NOT_OBSERVED",
+          "work_card": {
+            "label": null,
+            "view": null,
+            "catalyst": null,
+            "counterevidence": null,
+            "next_condition": null,
+            "company_deadline": null,
+            "self_review_window": null,
+            "if_met": null,
+            "if_not": null,
+            "price_stage": null,
+            "changes": null,
+            "evidence": null,
+            "source_ids": null
+          },
+          "work_analysis": {
+            "justification": null,
+            "counterevidence": null,
+            "next_checks": null
+          }
         }
       ],
       "work_report_text": null,
@@ -2053,7 +1809,7 @@
       "progress": "DISCOVERY_ONLY",
       "price_as_of": "2026-09-25T15:30:00+09:00",
       "research_recorded_at": "2026-09-27T07:50:26.635439+00:00",
-      "latest_check_at": "2026-10-04T10:44:43.934828Z",
+      "latest_check_at": "2026-10-22T02:17:39.848806Z",
       "update_status": "NOT_OBSERVED",
       "change_label": "今回未観測・変化不明（前回資料）",
       "work_card": {
@@ -2290,6 +2046,56 @@
             "counterevidence": null,
             "next_checks": null
           }
+        },
+        {
+          "revision": "e198a5917dcf828d26a607dbd2a911bc8632df6003dc09f9d9c280b2944af1ac",
+          "recorded_at": "2026-10-22T02:15:26.844355+00:00",
+          "update_status": "NOT_OBSERVED",
+          "work_card": {
+            "label": null,
+            "view": null,
+            "catalyst": null,
+            "counterevidence": null,
+            "next_condition": null,
+            "company_deadline": null,
+            "self_review_window": null,
+            "if_met": null,
+            "if_not": null,
+            "price_stage": null,
+            "changes": null,
+            "evidence": null,
+            "source_ids": null
+          },
+          "work_analysis": {
+            "justification": null,
+            "counterevidence": null,
+            "next_checks": null
+          }
+        },
+        {
+          "revision": "6a3734e3ac6c80143a1efcdf0de60d98546ac96a1c9ac2d30c56efa44991ddfa",
+          "recorded_at": "2026-10-22T02:17:39.848806+00:00",
+          "update_status": "NOT_OBSERVED",
+          "work_card": {
+            "label": null,
+            "view": null,
+            "catalyst": null,
+            "counterevidence": null,
+            "next_condition": null,
+            "company_deadline": null,
+            "self_review_window": null,
+            "if_met": null,
+            "if_not": null,
+            "price_stage": null,
+            "changes": null,
+            "evidence": null,
+            "source_ids": null
+          },
+          "work_analysis": {
+            "justification": null,
+            "counterevidence": null,
+            "next_checks": null
+          }
         }
       ],
       "work_report_text": null,
@@ -2306,7 +2112,7 @@
       "progress": "DISCOVERY_ONLY",
       "price_as_of": "2026-09-25T15:30:00+09:00",
       "research_recorded_at": "2026-09-27T07:50:26.635439+00:00",
-      "latest_check_at": "2026-10-04T10:44:43.934828Z",
+      "latest_check_at": "2026-10-22T02:17:39.848806Z",
       "update_status": "NOT_OBSERVED",
       "change_label": "今回未観測・変化不明（前回資料）",
       "work_card": {
@@ -2559,6 +2365,56 @@
             "counterevidence": null,
             "next_checks": null
           }
+        },
+        {
+          "revision": "e198a5917dcf828d26a607dbd2a911bc8632df6003dc09f9d9c280b2944af1ac",
+          "recorded_at": "2026-10-22T02:15:26.844355+00:00",
+          "update_status": "NOT_OBSERVED",
+          "work_card": {
+            "label": null,
+            "view": null,
+            "catalyst": null,
+            "counterevidence": null,
+            "next_condition": null,
+            "company_deadline": null,
+            "self_review_window": null,
+            "if_met": null,
+            "if_not": null,
+            "price_stage": null,
+            "changes": null,
+            "evidence": null,
+            "source_ids": null
+          },
+          "work_analysis": {
+            "justification": null,
+            "counterevidence": null,
+            "next_checks": null
+          }
+        },
+        {
+          "revision": "6a3734e3ac6c80143a1efcdf0de60d98546ac96a1c9ac2d30c56efa44991ddfa",
+          "recorded_at": "2026-10-22T02:17:39.848806+00:00",
+          "update_status": "NOT_OBSERVED",
+          "work_card": {
+            "label": null,
+            "view": null,
+            "catalyst": null,
+            "counterevidence": null,
+            "next_condition": null,
+            "company_deadline": null,
+            "self_review_window": null,
+            "if_met": null,
+            "if_not": null,
+            "price_stage": null,
+            "changes": null,
+            "evidence": null,
+            "source_ids": null
+          },
+          "work_analysis": {
+            "justification": null,
+            "counterevidence": null,
+            "next_checks": null
+          }
         }
       ],
       "work_report_text": null,
@@ -2575,7 +2431,7 @@
       "progress": "DISCOVERY_ONLY",
       "price_as_of": "2026-09-25T15:30:00+09:00",
       "research_recorded_at": "2026-09-27T07:50:26.635439+00:00",
-      "latest_check_at": "2026-10-04T10:44:43.934828Z",
+      "latest_check_at": "2026-10-22T02:17:39.848806Z",
       "update_status": "NOT_OBSERVED",
       "change_label": "今回未観測・変化不明（前回資料）",
       "work_card": {
@@ -2808,6 +2664,56 @@
             "counterevidence": null,
             "next_checks": null
           }
+        },
+        {
+          "revision": "e198a5917dcf828d26a607dbd2a911bc8632df6003dc09f9d9c280b2944af1ac",
+          "recorded_at": "2026-10-22T02:15:26.844355+00:00",
+          "update_status": "NOT_OBSERVED",
+          "work_card": {
+            "label": null,
+            "view": null,
+            "catalyst": null,
+            "counterevidence": null,
+            "next_condition": null,
+            "company_deadline": null,
+            "self_review_window": null,
+            "if_met": null,
+            "if_not": null,
+            "price_stage": null,
+            "changes": null,
+            "evidence": null,
+            "source_ids": null
+          },
+          "work_analysis": {
+            "justification": null,
+            "counterevidence": null,
+            "next_checks": null
+          }
+        },
+        {
+          "revision": "6a3734e3ac6c80143a1efcdf0de60d98546ac96a1c9ac2d30c56efa44991ddfa",
+          "recorded_at": "2026-10-22T02:17:39.848806+00:00",
+          "update_status": "NOT_OBSERVED",
+          "work_card": {
+            "label": null,
+            "view": null,
+            "catalyst": null,
+            "counterevidence": null,
+            "next_condition": null,
+            "company_deadline": null,
+            "self_review_window": null,
+            "if_met": null,
+            "if_not": null,
+            "price_stage": null,
+            "changes": null,
+            "evidence": null,
+            "source_ids": null
+          },
+          "work_analysis": {
+            "justification": null,
+            "counterevidence": null,
+            "next_checks": null
+          }
         }
       ],
       "work_report_text": null,
@@ -2824,7 +2730,7 @@
       "progress": "DISCOVERY_ONLY",
       "price_as_of": "2026-09-25T15:30:00+09:00",
       "research_recorded_at": "2026-09-27T07:50:26.635439+00:00",
-      "latest_check_at": "2026-10-04T10:44:43.934828Z",
+      "latest_check_at": "2026-10-22T02:17:39.848806Z",
       "update_status": "NOT_OBSERVED",
       "change_label": "今回未観測・変化不明（前回資料）",
       "work_card": {
@@ -3071,6 +2977,56 @@
             "counterevidence": null,
             "next_checks": null
           }
+        },
+        {
+          "revision": "e198a5917dcf828d26a607dbd2a911bc8632df6003dc09f9d9c280b2944af1ac",
+          "recorded_at": "2026-10-22T02:15:26.844355+00:00",
+          "update_status": "NOT_OBSERVED",
+          "work_card": {
+            "label": null,
+            "view": null,
+            "catalyst": null,
+            "counterevidence": null,
+            "next_condition": null,
+            "company_deadline": null,
+            "self_review_window": null,
+            "if_met": null,
+            "if_not": null,
+            "price_stage": null,
+            "changes": null,
+            "evidence": null,
+            "source_ids": null
+          },
+          "work_analysis": {
+            "justification": null,
+            "counterevidence": null,
+            "next_checks": null
+          }
+        },
+        {
+          "revision": "6a3734e3ac6c80143a1efcdf0de60d98546ac96a1c9ac2d30c56efa44991ddfa",
+          "recorded_at": "2026-10-22T02:17:39.848806+00:00",
+          "update_status": "NOT_OBSERVED",
+          "work_card": {
+            "label": null,
+            "view": null,
+            "catalyst": null,
+            "counterevidence": null,
+            "next_condition": null,
+            "company_deadline": null,
+            "self_review_window": null,
+            "if_met": null,
+            "if_not": null,
+            "price_stage": null,
+            "changes": null,
+            "evidence": null,
+            "source_ids": null
+          },
+          "work_analysis": {
+            "justification": null,
+            "counterevidence": null,
+            "next_checks": null
+          }
         }
       ],
       "work_report_text": null,
@@ -3079,12 +3035,437 @@
       "codex_unanswered_questions": [],
       "price_confirmation": null,
       "price_observation_status": "HISTORICAL_UNOBSERVED_THIS_PASS"
+    },
+    {
+      "event_id": "JP-WEB-3905-20260925",
+      "ticker": "3905",
+      "name": "データセクション",
+      "progress": "WORK_DRAFT_AVAILABLE",
+      "price_as_of": null,
+      "research_recorded_at": "2026-10-22T02:17:39.848806+00:00",
+      "latest_check_at": "2026-10-22T02:17:39.848806Z",
+      "update_status": "CHANGED",
+      "change_label": "保存研究の差分：保存内容を比較。市場の新情報は未確認",
+      "work_card": {
+        "label": null,
+        "view": null,
+        "catalyst": null,
+        "counterevidence": null,
+        "next_condition": null,
+        "company_deadline": null,
+        "self_review_window": null,
+        "if_met": null,
+        "if_not": null,
+        "price_stage": null,
+        "changes": null,
+        "evidence": null,
+        "source_ids": null
+      },
+      "sources": [
+        {
+          "id": "D01",
+          "title": "9/18 GPUaaS大口受注と資金計画",
+          "url": "https://www.datasection.co.jp/en-financial-report/en-ir-20260918002.pdf",
+          "source_kind": "company_ir",
+          "evidence_use": null,
+          "published_at": null,
+          "published_date": "2026-09-18",
+          "first_observed_at": null,
+          "retrieved_at": "2026-10-04T07:28:47.125852Z",
+          "this_run_access": "保存された一次研究の根拠。今回10/22は再取得していない。元の公開/取得時点を保持。",
+          "retrieval_window_start": null,
+          "retrieval_window_end": null
+        },
+        {
+          "id": "D02",
+          "title": "9/24 初回入金と受注発効",
+          "url": "https://www.datasection.co.jp/en-financial-report/en-ir-20260924001.pdf",
+          "source_kind": "company_ir",
+          "evidence_use": null,
+          "published_at": null,
+          "published_date": "2026-09-24",
+          "first_observed_at": null,
+          "retrieved_at": "2026-10-04T07:28:51.495970Z",
+          "this_run_access": "保存された一次研究の根拠。今回10/22は再取得していない。元の公開/取得時点を保持。",
+          "retrieval_window_start": null,
+          "retrieval_window_end": null
+        },
+        {
+          "id": "D03",
+          "title": "8/14 四半期決算と通期予想",
+          "url": "https://www.datasection.co.jp/en-financial-report/en-ir-20260814002.pdf",
+          "source_kind": "company_ir",
+          "evidence_use": null,
+          "published_at": null,
+          "published_date": "2026-08-14",
+          "first_observed_at": null,
+          "retrieved_at": "2026-10-04T07:28:57.784036Z",
+          "this_run_access": "保存された一次研究の根拠。今回10/22は再取得していない。元の公開/取得時点を保持。",
+          "retrieval_window_start": null,
+          "retrieval_window_end": null
+        },
+        {
+          "id": "TDNET_20261001",
+          "title": "10/1 タイ子会社の資本・連結化",
+          "url": "https://www.release.tdnet.info/inbs/140120261001544806.pdf",
+          "source_kind": "tdnet",
+          "evidence_use": null,
+          "published_at": "2026-10-01T17:20:00+09:00",
+          "published_date": "2026-10-01",
+          "first_observed_at": null,
+          "retrieved_at": "2026-10-04T07:19:03.891876+00:00",
+          "this_run_access": "保存された一次研究の根拠。今回10/22は再取得していない。元の公開/取得時点を保持。",
+          "retrieval_window_start": null,
+          "retrieval_window_end": null
+        },
+        {
+          "id": "DAY20_DS_WARRANT_EXPIRY",
+          "title": "第23回新株予約権の行使期間満了に関するお知らせ",
+          "url": "https://www.release.tdnet.info/inbs/140120261019553166.pdf",
+          "source_kind": "issuer_primary_parent_pdf_attested_local_text_verified",
+          "evidence_use": "adopted_scoped_parent_observation",
+          "published_at": "2026-10-19T18:40:00+09:00",
+          "published_date": "2026-10-19",
+          "first_observed_at": null,
+          "retrieved_at": null,
+          "this_run_access": "親が10/20に公式TDnet PDFを取得。この実行者は10/22に受領TXTのbyte/hashと本文を確認。自分のWeb取得/PDF hash再計算ではない。元EIRとのbyte同一性未確認。",
+          "retrieval_window_start": null,
+          "retrieval_window_end": null
+        },
+        {
+          "id": "DAY20_DS_VOTING_DELEGATION",
+          "title": "主要株主及び主要株主である筆頭株主の異動に関するお知らせ",
+          "url": "https://www.release.tdnet.info/inbs/140120261019553078.pdf",
+          "source_kind": "issuer_primary_parent_pdf_attested_local_text_verified",
+          "evidence_use": "adopted_scoped_parent_observation",
+          "published_at": "2026-10-19T16:30:00+09:00",
+          "published_date": "2026-10-19",
+          "first_observed_at": null,
+          "retrieved_at": null,
+          "this_run_access": "親が10/20に公式TDnet PDFを取得。この実行者は10/22に受領TXTのbyte/hashと本文を確認。自分のWeb取得/PDF hash再計算ではない。元EIRとのbyte同一性未確認。",
+          "retrieval_window_start": null,
+          "retrieval_window_end": null
+        }
+      ],
+      "history": [
+        {
+          "revision": "7c8fac11d1a2fa8f7534c638d92753f0aa9c55190df6fed2ebaca7516fa5afb6",
+          "recorded_at": "2026-09-27T05:52:05.525194+00:00",
+          "update_status": "FIRST_OBSERVATION",
+          "work_card": {
+            "label": null,
+            "view": null,
+            "catalyst": null,
+            "counterevidence": null,
+            "next_condition": null,
+            "company_deadline": null,
+            "self_review_window": null,
+            "if_met": null,
+            "if_not": null,
+            "price_stage": null,
+            "changes": null,
+            "evidence": null,
+            "source_ids": null
+          },
+          "work_analysis": {
+            "justification": "## 買い手の最も合理的な説明\n\n単なるAI人気ではなく、既存の収益計画が実現する確率の上昇を買った、という説明が最も強い。前受資金はGPU調達の一部を支え、売上の見通しを改善する。弱気側が「受注は見せかけ」と主張するなら、実際の入金という反証に答える必要がある。\n\nただし、D01はこの案件が既存通期予想に織り込まれていると明記する。7月想定から稼働が遅れ、今期案件売上は想定より減る一方、契約単価上昇で案件利益は増える見通し。したがって、今回の年額をそのまま既存予想に足す計算は二重計上になる。\n\n## 上昇分と全体評価\n\n8月25日の総発行37,599,951株を固定すると、9月25日の比較用総額は780.95億円、18日からの株価上昇分は201.16億円（自己株含む、当日実株数ではない）。議決権のない株数を自己株数とみなさず、同日基準の自己株除外時価総額はnullとした。[株数 D04](https://www.datasection.co.jp/en-financial-report/en-ir-20260903001.pdf)\n\n1Q短信の会社予想EPS179.31～231.45円に対して、2,077円は約8.97～11.58倍。表示サイトのPER7.49倍とは採用EPSが異なるため置き換えない。短信には旧大型案件終了の影響を別の案件で補う見込みや、案件組成・紹介手数料の計上もあり、予想達成と利益の持続性は独立した検証課題である。[1Q短信 D03](https://www.datasection.co.jp/en-financial-report/en-ir-20260814002.pdf)\n\n現在価格を支える持続EPSは、仮にPER15倍なら138.47円、20倍なら103.85円、25倍なら83.08円。倍率は適正値の認定ではない。会社予想を達成し反復できるなら、今の価格を説明できる余地はある。必要条件は、希薄化後も利益が株当たりに残ること、既存予想中の案件が売上・現金回収に移ること、継続投資を賄えること。売上成長率だけでは足りない。",
+            "counterevidence": "## 強気・基本・弱気と反証\n\n|想定|前提|見方を変える証拠|\n|---|---|---|\n|強気|残金受領・融資実行・年内フル提供、顧客継続、希薄化後利益の持続|実稼働、稼働率、回収、利払い後CFがそろえば、現在価格の正当化は強まる|\n|基本|契約は有効、稼働・採算・他案件は検証中。延長2年は確定扱いしない|月次稼働進捗と次期決算で更新|\n|弱気|融資・設備・電力の遅延、追加希薄化、利益が一時的|前受金入金は既に反証。さらに融資・稼働・継続回収が確認されれば、履行不能を主因とする弱気仮説を撤回|",
+            "next_checks": "## 値動き段階と次の確認\n\n25日の出来高は24日の約1.50倍で、2日連続の大幅上昇。材料の実現確度を再評価する初動～継続局面との解釈。ただし自動タイミング判定や天井判定は実施していない。\n\n次は残金の受領（開示上30日以内）、融資契約、10月の稼働開始、11～12月のフル提供、通期予想と株数の更新を確認する。予約は登録していない。顧客が撤退、前受金返還、融資不成立、稼働計画の重大な延期なら「履行確度改善による上昇」という基本見立てを取り下げる。反対に安定稼働と希薄化後利益が確認されれば、資金不足中心の懸念を引き下げる。\n\n結論：上昇には合理的な材料がある。201.16億円の増分を契約の売上額だけで正当化することも、DCF未計算を理由に不当と断定することもできない。"
+          }
+        },
+        {
+          "revision": "703d7352b7f872168123bb5087ea3196d5a334ef81493326786ff2726a31eced",
+          "recorded_at": "2026-09-27T07:50:26.635439+00:00",
+          "update_status": "CHANGED",
+          "work_card": {
+            "label": "追加確認を優先",
+            "view": "継続利益と希薄化を分けない低PER評価は保留",
+            "catalyst": "初回入金でGPU契約が発効",
+            "counterevidence": "残存18か月の推定粗利益を参考に手数料を交渉したとの会社説明。実際の初回入金も契約の実効性を支持",
+            "next_condition": "残金入金・借入成立・稼働・手数料以外の利益",
+            "company_deadline": "残金は9月24日から30日以内、段階稼働10月・全面11～12月",
+            "self_review_window": "9月28日以降、10月末、次四半期資料",
+            "if_met": "実行と継続利益が確認できれば支持、遅延・下方修正なら警戒",
+            "if_not": "追加確認を維持。無開示のみで不履行認定しない",
+            "price_stage": "契約材料を受けた複数日上昇・出来高拡大",
+            "changes": {
+              "price_update": false,
+              "new_market_news_since_prior": null,
+              "research_supplement": true,
+              "research_clarification": true,
+              "fetch_failure_unknown": false
+            },
+            "evidence": {
+              "issuer_claims": [
+                "初回入金0.9855億ドル、契約発効を会社が開示",
+                "通期純利益予想は8,704百万円、EPS幅は株数による",
+                "旧案件手数料は残り18か月の推定粗利益を交渉参考"
+              ],
+              "observed_facts": [
+                "前版価格時点は9月25日。今取引日の追加はない"
+              ],
+              "analysis_assumptions": [
+                "実行リスク低下は評価上昇の理由になり得る",
+                "PER20倍は感応度目盛のみ"
+              ],
+              "unconfirmed": [
+                "継続利益内訳",
+                "借入最終契約",
+                "残金・稼働",
+                "現在の完全希薄化株数"
+              ]
+            },
+            "source_ids": [
+              "D01",
+              "D02",
+              "D03",
+              "D06"
+            ]
+          },
+          "work_analysis": {
+            "justification": "## 上昇の説明と現在の見立て\n\n**見立て：受注の実効性は前進したが、継続利益で割安と結論するには不足。** 合理的な買い手は、契約の広告的な最大額よりも、初回入金による実行リスクの低下を評価できる。\n\n事実（会社開示）：9月18日のGPU契約は3年、追加2年は顧客の選択権。9月24日に預り金総額1.314億ドルのうち0.9855億ドルを受領し契約発効、残り0.3285億ドルは同日から30日以内の見込み。入金は売上・利益・自由に使えるFCFとは異なる。未取得GPUへの支払いと借入調達が伴う。[D01](https://www.datasection.co.jp/en-financial-report/en-ir-20260918002.pdf)、[D02](https://www.datasection.co.jp/en-financial-report/en-ir-20260924001.pdf)\n\n時系列：前回保存の開示配信時刻では9月18日19:30の契約資料→24日終値1,807円→24日15:40の入金開示→25日2,077円。24日の上昇を引け後の入金開示で説明してはいけない。今回、会社英語IR一覧の最新掲載は24日の入金資料まで確認した。時刻の原典照合は前版の二次配信記録を継承。",
+            "counterevidence": "## 反証とシナリオ\n\n強気：残金入金・借入成立・設備稼働が予定どおり進み、手数料以外の利益と営業キャッシュ創出が立ち上がる。基本：契約発効は採用、継続利益は保留。弱気：追加遅延、顧客不履行、金利・設備費増、利益成長を上回る希薄化。\n\n弱気への重要な反証は、既に大きな初回入金があったという会社開示。契約が単なる構想との見方は取り下げる。反対に低PERだけを理由とする強気論は、継続利益の内訳が出るまで採用しない。各シナリオに確率は付けない。",
+            "next_checks": "## 次の確認と見方を変える条件\n\n会社の予定：残金は9月24日から30日以内、段階稼働は10月、全面稼働は11～12月。暦日計算上の残金目安10月24日は銀行営業日の調整を確認していない。自分の再確認目安は9月28日以降の開示、10月末、次の四半期資料。予約登録はしていない。\n\n残金・借入条件・稼働・手数料以外の営業利益が確認できれば「上昇を説明できる」側へ更新。遅延や利益下方修正なら期待先行への警戒を強める。開示が出ないだけなら不履行とはしない。観測段階は契約材料を受けた複数日上昇と出来高拡大まで。天井・反落日・売買勝率は不明。"
+          }
+        },
+        {
+          "revision": "3050caf1b203413b7b04930fd4953e5bcbce471116cc2061f22f6f1efe4c1f54",
+          "recorded_at": "2026-09-27T12:35:49.128398+00:00",
+          "update_status": "CHANGED",
+          "work_card": {
+            "label": "追加確認を優先",
+            "view": "需要と入金は上昇を支持。設備回収・継続利益・期末希薄化の確認まで全体評価は保留",
+            "catalyst": "初回入金でGPU契約が発効",
+            "counterevidence": "大口入金と顧客側の計算資源需要。前受・長期契約で設備投資リスクを下げられる可能性",
+            "next_condition": "残金・融資・受電と検収、手数料以外の利益、更新費、最新権利残高",
+            "company_deadline": "残金は9月24日から30日以内、権利行使期間末10月19日（8月資料）、段階稼働10月・全面11～12月",
+            "self_review_window": "9月28日以降、10月末、次四半期資料 (manual only; no schedule registered)",
+            "if_met": "利益と再投資後現金が株数増を上回れば、持続利益による評価の裏付けを強める",
+            "if_not": "履行遅延・借入不成立・回収悪化が確認されれば慎重化。無開示だけでは失敗認定しない",
+            "price_stage": "契約材料を受けた複数日上昇・出来高拡大",
+            "changes": {
+              "price_update": false,
+              "new_market_news_since_prior": null,
+              "research_supplement": true,
+              "research_clarification": true,
+              "fetch_failure_unknown": false
+            },
+            "evidence": {
+              "observed_facts": [
+                "9月25日終値2077円を今回再取得。同日付・同値で価格更新なし",
+                "9月27日のIR一覧で先頭は9月24日。網羅的無開示保証ではない"
+              ],
+              "issuer_claims": [
+                "初回9855万ドルを受領して契約発効",
+                "3年契約と買い手選択2年、残GPU費255.4百万ドル",
+                "8月14日時点の未行使第23回権利は30207100株、行使期限10月19日"
+              ],
+              "analysis_assumptions": [
+                "3年売上から残GPU代を引く費用前余地を検算。利益やFCFではない",
+                "平均株数幅を完全希薄化上限としない",
+                "同日PRと詳細開示は同一取引と暫定解釈し二重加算しない"
+              ],
+              "unconfirmed": [
+                "顧客名・原契約条項・信用",
+                "同時点の株数、現金負債、最新権利残高",
+                "電力・維持更新・税・利息後の継続利益",
+                "9月案件と過去設備計画の同一性"
+              ]
+            },
+            "source_ids": [
+              "D01",
+              "D02",
+              "D03",
+              "D06",
+              "D07",
+              "D08",
+              "D09",
+              "C01",
+              "C02",
+              "C03",
+              "C04",
+              "C05",
+              "ND"
+            ]
+          },
+          "work_analysis": {
+            "justification": "## 上昇の説明と現在の見立て\n\n**合理的な強気説明を先に置く。** AI計算資源を必要とする買い手に、電力・設備・運用をまとめて提供できれば、GPU単体の転売を超えた価値がある。年1.752億ドルの契約に初回0.9855億ドルの入金があったとの会社開示は、単なる提携期待より強い証拠。設備代の一部を顧客前受金で賄う設計も、事業実現を支える。既存予想に入っていた案件でも、実行確度の改善が評価上昇を説明し得る。追加売上を従来予想へ丸ごと加算する意味ではない。[D01,D02]\n\n見立ては「需要と契約の実体には合理的な裏付けがある。現在株価全体を持続利益で説明できるかは未確認」。一律の割高・空売り結論は出さない。今回の進展は、設備原価の回収条件、実行制約、平均株数と潜在株数の区別。全社DCF未完成でもこの部分評価は可能。",
+            "counterevidence": "## 反証とシナリオ\n\n|シナリオ|成立に必要な条件・根拠|感応度と見方|\n|---|---|---|\n|強気|残金・融資・受電・検収が揃い、3年契約代金を回収。非GPU費用等が回収余地内に収まり、他契約も稼働。入金[D02]と買い手需要[C03]が支持|基本の年90.07百万ドルは費用前余地。利益確定ではない。更新・再販・他契約利益が実証されれば持続利益による株価説明を強める|\n|基本|3年契約を中心に評価し、選択2年・次世代更新・未成約パイプラインの利益を未評価。資金と稼働を段階確認|0/10/20%費用増、100/90/80%回収は感応度で予測レンジではない。適正価格は保留|\n|弱気|遅延、減額・解約、費用増、短期回収困難、顧客集中、借入不成立、追加希薄化で一株利益が伸びない|実契約条項による影響額は未計算。需要一般の強さだけでは当社の履行問題を打ち消せない|\n\n弱気仮説の最大の反証は、大口入金を伴う顧客の関与と、業界で継続する計算資源需要。GPUが再利用・再販でき、前受と長期契約で調達リスクを抑えられれば株主価値は増え得る。逆に「AI需要がない」「将来更新費は必ず全額同額」「未開示だから契約は無効」とは主張しない。",
+            "next_checks": "## 次の確認と見方を変える条件\n\n|確認条件|会社の予定／自主目安|成立した場合の変更／崩れた場合|\n|---|---|---|\n|残32.85百万ドル入金と124百万ドルの資金調達条件|残金は9月24日から30日以内。融資の確定期限未開示|成立・資金費用が許容範囲なら実行懸念を下げる。不成立や高コストなら回収余地を再計算。無開示だけで不履行認定しない|\n|第23回権利の最新残高・調達用途|資料上行使期間末10月19日。最新開示を自主確認、予約なし|株数と調達資産を同時更新。平均株数と期末潜在株数を混ぜない。失効でも資金不足との交換条件を評価|\n|受電・納入・顧客検収・請求開始|段階10月、全面11～12月という会社予定|予定どおりなら強気を補強。遅延・容量縮小・SLA負担なら下方に修正|\n|継続利益と更新後現金|次四半期資料・通期計画、自主確認|手数料以外の利益・金利・更新資金まで一株利益目盛を支えるなら保留を解除。損失・回収不能が裏付けられれば慎重化|\n\n足元は9月18日終値1,542円→24日1,807円→25日2,077円という複数日上昇。25日高値2,187円、出来高22,040,900株を今回再照合。これだけで転換・売り時は認定しない。価格更新なし、分析追補あり。\n\n原典URL・公開日・取得範囲はsources.md/json、仮定と34件の再計算はresearch_data.json/calculations.json。正式verdict=null、執行評価NOT_EVALUATED。"
+          }
+        },
+        {
+          "revision": "a0a1bdfc59615fd0633b043b8dc5d60dd0df7db9dbec51609762086d2f0f1697",
+          "recorded_at": "2026-10-04T07:29:19.709293+00:00",
+          "update_status": "CHANGED",
+          "work_card": {
+            "label": "企業価値全体はUNKNOWN",
+            "view": "入金と運営体制は強気側の根拠。持続利益・資金・最新資本を確認するまでUNKNOWN",
+            "catalyst": "大口前受を伴う受注発効とタイ運営主体整備",
+            "counterevidence": "実際の大口前受は需要否定への反証。稼働・残入金・融資成立は別に未確認",
+            "next_condition": "残入金、124百万USD融資、有償稼働、同時点の資本・最新価格、継続現金",
+            "company_deadline": "残金は9月24日から30日以内の会社予定。段階開始10月、全面11～12月の予定",
+            "self_review_window": "新開示または次決算の実観測時; manual only",
+            "if_met": "費用・更新後の持続現金で全体評価を裏付ければ合理性を強める",
+            "if_not": "実証された不履行・融資不成立・費用悪化のみ慎重化",
+            "price_stage": "現在価格は未取得。旧9月25日価格は過去の比較基準",
+            "changes": {
+              "price_update": false,
+              "new_market_news_since_prior": true,
+              "research_supplement": true,
+              "research_clarification": true,
+              "fetch_failure_unknown": false
+            },
+            "evidence": {
+              "observed_facts": [
+                "会社リンクの559件IRフィードを取得し先頭10月1日17:20を確認",
+                "current price未取得、8欠損をnull保全"
+              ],
+              "issuer_claims": [
+                "初回98.55百万USD入金で発効",
+                "タイ増資後資本金675086000THB、業績重要影響なし"
+              ],
+              "analysis_assumptions": [
+                "新受注と旧設備案件の対応を仮定しない",
+                "参考粗利率を実績マージンへ変換しない"
+              ],
+              "unconfirmed": [
+                "最新資本基準・融資希薄化モデル・持続FCFF・現在価格"
+              ]
+            },
+            "source_ids": [
+              "D01",
+              "D02",
+              "D03",
+              "THAI_MOU",
+              "IR_RSS",
+              "TDNET_20261001",
+              "IR_FEED",
+              "SEP3_CAPITAL",
+              "AUG18_PRESENTATION",
+              "JUN4_B200",
+              "IR_INDEX",
+              "JPX_CALENDAR"
+            ]
+          },
+          "work_analysis": {
+            "justification": "## 上昇の説明と現在の見立て\n\n結論はUNKNOWN。初回98.55百万USDの顧客前受入金によるGPU受注発効は、需要・実行確度の改善という強気側の合理的な証拠。10月1日開示ではタイ運営子会社の資本金が675,086,000THB、会社換算3,166百万円となり、連結化・運営体制の進展を確認できる。ただし増資後資本金と増資差額を区別し、増資を売上や利益、新しい外部資金と扱わない。同開示は連結業績への重要な影響なしとしている。\n\n9月の匿名顧客案件とタイ子会社・8月MOU・6月B200設備計画は、会社による明示的対応が未確認。金額や時期が近いだけで同じ案件と認定せず、受注を二重加算しない。契約は年175.2百万USD、3年525.6百万USD。顧客選択の追加2年を確定受注に足さない。既存予想への織込みを新規売上増分と混同しない。\n\n10月4日の無料一次資料再読により、公式IRの会社リンク先559件フィードは取得時点で10月1日17:20 JSTを最新と表示し、10月2日付の項目は見当たらなかった。確認したフィード内の観測であり、会社全情報の網羅や市場の変化なしの保証ではない。前回のRSS TLS失敗は通常TLS検証の取得成功で解消し、9月18日19:30 JST・9月24日15:40 JST・10月1日17:20 JSTという開示日時を区別して保存した。再取得した資料の数値は会社主張であり、銀行・顧客の独立確認ではない。",
+            "counterevidence": "## 反証とシナリオ\n\n強気：残入金・融資・電力・納入・検収が整い、顧客支払いから全費用と更新投資を賄って持続的株主現金を生めるなら上昇の合理性を強める。顧客延長や追加案件は確認された範囲で別評価する。\n\n基本：確定3年と各履行条件を段階評価し、残入金・融資・有償稼働を未確認のまま保持。全体評価は保留。\n\n慎重：裏付けられた融資不成立・入金不履行・重大な費用増・希薄化があれば価値への影響を検討する。価格下落、10月4日時点の残金無開示、一般的なAI期待だけでは結論を決めない。大口前受を伴う発効は「需要がない」という弱気仮説への反証。",
+            "next_checks": "## 次の確認と見方を変える条件\n\n- 残32.85百万USDの受領を初回分と分けて確認。会社予定は9月24日から30日以内で、10月4日時点では期間途中\n- 124百万USD融資の契約、実行、金利、担保、返済、設備支払時期を確認\n- 10月段階稼働・11～12月全面稼働について受電・納入・検収・請求可能容量・実際の有償利用を確認\n- 9月案件とタイ運営主体等の明示的対応を確認。確認前の合算をしない\n- 同時点の株数、自己株、残存予約権、払込資金使途、現金・負債を確認。8月時点の残存権利・株数は現時点の代用にしない\n- 手数料以外の継続利益と営業費・金利・税・更新後の現金を確認。現在評価が要求する規模を満たせばJUDGED_JUSTIFIEDを再検討\n- 最新の許諾された価格入力を取得するまで、現在株価全体・増分の定量評価を進めない"
+          }
+        },
+        {
+          "revision": "6c49a33ef4cb6dcfa9a01fa55c358dc608e4cc798154fe283c4e690ad8073c74",
+          "recorded_at": "2026-10-04T10:44:43.934828+00:00",
+          "update_status": "NOT_OBSERVED",
+          "work_card": {
+            "label": null,
+            "view": null,
+            "catalyst": null,
+            "counterevidence": null,
+            "next_condition": null,
+            "company_deadline": null,
+            "self_review_window": null,
+            "if_met": null,
+            "if_not": null,
+            "price_stage": null,
+            "changes": null,
+            "evidence": null,
+            "source_ids": null
+          },
+          "work_analysis": {
+            "justification": null,
+            "counterevidence": null,
+            "next_checks": null
+          }
+        },
+        {
+          "revision": "e198a5917dcf828d26a607dbd2a911bc8632df6003dc09f9d9c280b2944af1ac",
+          "recorded_at": "2026-10-22T02:15:26.844355+00:00",
+          "update_status": "CHANGED",
+          "work_card": {
+            "label": null,
+            "view": null,
+            "catalyst": null,
+            "counterevidence": null,
+            "next_condition": null,
+            "company_deadline": null,
+            "self_review_window": null,
+            "if_met": null,
+            "if_not": null,
+            "price_stage": null,
+            "changes": null,
+            "evidence": null,
+            "source_ids": null
+          },
+          "work_analysis": {
+            "justification": "## 上昇の説明と現在の見立て\n\n10/19会社開示2件を、親が10/20に公式TDnetから取得したPDFの証跡と、この実行者が10/22に受領してbyte/hash・本文を確認したTXTに基づき採用した。自分による新規Web取得やPDF hash再計算ではなく、元EIRとのbyte同一性は未確認。取得時刻の精密値も不明で、親の保存mtimeを応答時刻へ置換しない。\n\n第23回新株予約権440,000個（1個100株）のうち213,942個が行使、226,058個は10/19に期間満了。未行使分は割当時払込額と同額の415,946,720円で会社が取得したと開示。全部行使時の予定調達55,809,600,000円に対し、会社が記載する実際の調達27,136,403,280円は、未行使分取得後の発行部分393,653,280円と行使部分26,742,750,000円の合計。予定との差28,673,196,720円を利益の損失や直ちに支払う債務と扱わない（第23回資料p1表・p2第3/4節）。\n\n資金と希薄化の確認が進んだが、最新価格・同時点の全社資本と持続FCFFは不足し、判断は条件待ち・判断材料不足。空売り検討候補への昇格はしない。",
+            "counterevidence": "## 反証とシナリオ\n\n予定調達未達は資金調達の問いを強める一方、実際の約271億円の調達と会社の設備資金充当説明は、資金調達が全くないという弱気説明への反証。未行使分の失効はこの系列の将来希薄化を減らす面もある。既存の初回98.55百万USD入金・契約発効という需要側の強気根拠を維持し、追加調達の未確定だけで事業失敗や割高を確定しない。会社の資金充当説明を銀行残高監査・有償稼働の独立証明にはしない。",
+            "next_checks": "## 次の確認と見方を変える条件\n\n優先度1で深掘り継続。追加調達の契約・実行・金利・担保・返済と設備支払、残32.85百万USD入金、124百万USD融資の実行、有償稼働・検収・請求容量を確認する。別系列の残存権利と同時点株数/現金/負債、持続FCFF、許可された最新価格が揃えば全体価値を再計算する。持続現金と希薄化後一株価値が評価を支えるなら強気合理性を強め、逆に評価不整合と具体的下落触媒が揃った場合だけ研究候補へ再審査する。\n\n借株在庫、費用、期限、規制、流動性、踏み上げ、決算等イベント、損失管理は全て未確認で研究判断から分離する。価格条件15%/30%/70%も未確認。根拠不足につき売買推奨なし。"
+          }
+        },
+        {
+          "revision": "6a3734e3ac6c80143a1efcdf0de60d98546ac96a1c9ac2d30c56efa44991ddfa",
+          "recorded_at": "2026-10-22T02:17:39.848806+00:00",
+          "update_status": "CHANGED",
+          "work_card": {
+            "label": null,
+            "view": null,
+            "catalyst": null,
+            "counterevidence": null,
+            "next_condition": null,
+            "company_deadline": null,
+            "self_review_window": null,
+            "if_met": null,
+            "if_not": null,
+            "price_stage": null,
+            "changes": null,
+            "evidence": null,
+            "source_ids": null
+          },
+          "work_analysis": {
+            "justification": "## 上昇の説明と現在の見立て\n\n10/19会社開示2件を、親が10/20に公式TDnetから取得したPDFの証跡と、この実行者が10/22に受領してbyte/hash・本文を確認したTXTに基づき採用した。自分による新規Web取得やPDF hash再計算ではなく、元EIRとのbyte同一性は未確認。取得時刻の精密値も不明で、親の保存mtimeを応答時刻へ置換しない。\n\n第23回新株予約権440,000個（1個100株）のうち213,942個が行使、226,058個は10/19に期間満了。未行使分は割当時払込額と同額の415,946,720円で会社が取得したと開示。全部行使時の予定調達55,809,600,000円に対し、会社が記載する実際の調達27,136,403,280円は、未行使分取得後の発行部分393,653,280円と行使部分26,742,750,000円の合計。予定との差28,673,196,720円を利益の損失や直ちに支払う債務と扱わない（第23回資料p1表・p2第3/4節）。\n\n資金と希薄化の確認が進んだが、最新価格・同時点の全社資本と持続FCFFは不足し、判断は条件待ち・判断材料不足。空売り検討候補への昇格はしない。",
+            "counterevidence": "## 反証とシナリオ\n\n予定調達未達は資金調達の問いを強める一方、実際の約271億円の調達と会社の設備資金充当説明は、資金調達が全くないという弱気説明への反証。未行使分の失効はこの系列の将来希薄化を減らす面もある。既存の初回98.55百万USD入金・契約発効という需要側の強気根拠を維持し、追加調達の未確定だけで事業失敗や割高を確定しない。会社の資金充当説明を銀行残高監査・有償稼働の独立証明にはしない。",
+            "next_checks": "## 次の確認と見方を変える条件\n\n優先度1で深掘り継続。追加調達の契約・実行・金利・担保・返済と設備支払、残32.85百万USD入金、124百万USD融資の実行、有償稼働・検収・請求容量を確認する。別系列の残存権利と同時点株数/現金/負債、持続FCFF、許可された最新価格が揃えば全体価値を再計算する。持続現金と希薄化後一株価値が評価を支えるなら強気合理性を強め、逆に評価不整合と具体的下落触媒が揃った場合だけ研究候補へ再審査する。\n\n借株在庫、費用、期限、規制、流動性、踏み上げ、決算等イベント、損失管理は全て未確認で研究判断から分離する。価格条件15%/30%/70%も未確認。根拠不足につき売買推奨なし。"
+          }
+        }
+      ],
+      "work_report_text": "## 上昇の説明と現在の見立て\n\n10/19会社開示2件を、親が10/20に公式TDnetから取得したPDFの証跡と、この実行者が10/22に受領してbyte/hash・本文を確認したTXTに基づき採用した。自分による新規Web取得やPDF hash再計算ではなく、元EIRとのbyte同一性は未確認。取得時刻の精密値も不明で、親の保存mtimeを応答時刻へ置換しない。\n\n第23回新株予約権440,000個（1個100株）のうち213,942個が行使、226,058個は10/19に期間満了。未行使分は割当時払込額と同額の415,946,720円で会社が取得したと開示。全部行使時の予定調達55,809,600,000円に対し、会社が記載する実際の調達27,136,403,280円は、未行使分取得後の発行部分393,653,280円と行使部分26,742,750,000円の合計。予定との差28,673,196,720円を利益の損失や直ちに支払う債務と扱わない（第23回資料p1表・p2第3/4節）。\n\n資金と希薄化の確認が進んだが、最新価格・同時点の全社資本と持続FCFFは不足し、判断は条件待ち・判断材料不足。空売り検討候補への昇格はしない。\n\n## 評価全体と価値増分\n\n行使済みから対応する株式は21,394,200株、未行使から予定されていた22,605,800株はこの権利からは発行されない。これを10/8時点の発行済株式41,350,351株に重ねて加算しない。別系列の潜在株式や10/22現在の完全希薄化株数は未確認。\n\n会社は発行諸費用を除く調達資金を約270億円、国内第1号約204億円・豪州第1号約22億円への充当、未充当約44億円と説明し、最適な追加調達方法を検討中。概数から正確な費用や現預金を逆算しない。調達資金、契約額、前受は利益・FCFFではなく、借入・支払・稼働・税・更新投資の時系列確認が必要。\n\n株主異動資料では10/8時点のEarth Elementsの議決権52,563個・12.80%（前日23,251個・6.10%）。全てFirstPlusから委任された議決権行使等権限で、直接保有12.80%ではない。分母も381,345個から410,657個へ変化している。所有株式数の欄は該当事項なしで、実際の売買・新株取得の全経路をこの資料だけで断定しない（株主異動資料p2表・注2～4）。\n\n## 反証とシナリオ\n\n予定調達未達は資金調達の問いを強める一方、実際の約271億円の調達と会社の設備資金充当説明は、資金調達が全くないという弱気説明への反証。未行使分の失効はこの系列の将来希薄化を減らす面もある。既存の初回98.55百万USD入金・契約発効という需要側の強気根拠を維持し、追加調達の未確定だけで事業失敗や割高を確定しない。会社の資金充当説明を銀行残高監査・有償稼働の独立証明にはしない。\n\n## 次の確認と見方を変える条件\n\n優先度1で深掘り継続。追加調達の契約・実行・金利・担保・返済と設備支払、残32.85百万USD入金、124百万USD融資の実行、有償稼働・検収・請求容量を確認する。別系列の残存権利と同時点株数/現金/負債、持続FCFF、許可された最新価格が揃えば全体価値を再計算する。持続現金と希薄化後一株価値が評価を支えるなら強気合理性を強め、逆に評価不整合と具体的下落触媒が揃った場合だけ研究候補へ再審査する。\n\n借株在庫、費用、期限、規制、流動性、踏み上げ、決算等イベント、損失管理は全て未確認で研究判断から分離する。価格条件15%/30%/70%も未確認。根拠不足につき売買推奨なし。",
+      "work_calculations": [],
+      "work_assumptions": [],
+      "codex_unanswered_questions": [
+        "一時手数料に対応する費用・税を確認した継続純利益はどれだけか。",
+        "GPU更新投資・電力・稼働率・融資・顧客集中を入れて、契約期間内にいくら現金が残るか。",
+        "追加2年の選択権、既存予想、増分利益を二重計上していないか。"
+      ],
+      "price_confirmation": {
+        "status": "WEB_CONFIRMED_NOT_REPUBLISHED",
+        "session_date": "2026-10-02",
+        "as_of": "2026-10-02T15:30:00+09:00",
+        "observed_at": "2026-10-04T21:33:00+09:00",
+        "kind": "session_close",
+        "public_numeric_republication": "not_authorized",
+        "note": "依頼時にWebで終値を確認。株価数値の継続配信は行いません。出典ページを参照してください。",
+        "sources": [
+          {
+            "title": "データセクション 株価時系列（2026-10-02終値確認）",
+            "provider": "Yahoo Finance Japan",
+            "url": "https://finance.yahoo.co.jp/quote/3905.T/history"
+          },
+          {
+            "title": "データセクション 株価時系列（2026-10-02終値確認）",
+            "provider": "Kabutan",
+            "url": "https://s.kabutan.jp/stocks/3905/historical_prices/daily/"
+          }
+        ]
+      },
+      "price_observation_status": "WEB_CONFIRMED_NOT_REPUBLISHED"
     }
   ],
   "price_confirmation_revision": "292dfa5350e2c3fc479aa33a425a31a01b3f3aeb20855cd100eae77939785cd9",
   "research_board": {
-    "revision": "f4d36d3106c69786d4d42e740de81b64d5c44dd7adad12de053cbc4390b2d55f",
-    "recorded_at": "2026-10-19T14:35:53.315703+00:00",
+    "revision": "e09b1c4d4193f9bc415aef031697a8b0c56a14766dbb32621a6112ba8c57a1a9",
+    "recorded_at": "2026-10-22T02:15:26.844355+00:00",
     "headline": "現時点で空売りを推奨できる銘柄はなし",
     "headline_reason": "企業価値の割高評価と下落触媒の根拠が揃っていない。急騰・提携・好決算だけでは売りの根拠にしない。借株・費用・規制・反転・イベントと損失管理も別に確認する。",
     "research_candidate_count": 0,
@@ -3103,14 +3484,12 @@
     "discovery": {
       "method": "bounded_web_research",
       "status": "OBSERVED_PARTIAL",
-      "observed_session": "2026-10-19",
+      "observed_session": "2026-10-20",
       "observed_at": null,
-      "verification_window_start": "2026-10-19T10:24:39.744119Z",
-      "verification_window_end": "2026-10-19T14:35:53.315703Z",
+      "verification_window_start": "2026-10-20T10:50:34.549242Z",
+      "verification_window_end": "2026-10-22T02:15:26.844355Z",
       "source_ids": [
-        "DAY19_PARENT_NEWS",
-        "DAY19_SHOWCASE_IR",
-        "DAY19_ONDECK_IR"
+        "DAY20_BOUNDED_NEWS"
       ],
       "requested_new_company_limit": 3,
       "full_market_coverage": false,
@@ -3120,9 +3499,9 @@
       "observed_twenty_day_condition": null,
       "price_numeric_data_stored": false,
       "recurring_provider_permission": "unconfirmed",
-      "note": "10/19の限定調査。検索は初回不関連1回＋今回だけ許可された追加1回。市況記事は親側の独立読取報告を採用し、この実行者の直接読了とはしない。可視日時15:40と一部抽出メタデータ15:30の不一致を保持。3909/7360は会社IR入口へ戻ったが個別の新材料本文は未確認で、未認定・未登録。ストップ高やテーマだけで売り候補にしない。価格3条件はすべて未確認、全市場非網羅。ニュース本文・株価・注文残の数値は保存/配信しない。"
+      "note": "10/20検索1回は消費済み、回復中追加0。130A二次本文は可視14:05と抽出metadata19:00不一致を保持、会社一次未確認で未登録・調査待ち。3905は同じ既知PDF2件の親保存TXTを10/22にhash/本文確認して採用。価格3条件未確認、全市場非網羅。原典全文・ニュース/株価数値の反復蓄積配信なし。"
     },
-    "change_reason": "10/19：親側の独立した同記事読取報告を範囲付き採用し、発見経路の未取得を解消。新規2社は一次の個別材料未確認で未登録、深掘り昇格なし。現deep5を具体的問い・強気反証・鮮度不足に基づき継続し、watch3/queue1/旧5履歴保管を維持。4935/2449の既知一次資料を再照合し、未取得や既知資料を新材料へ変換しない。研究候補の根拠と取引8軸は不足のまま。",
+    "change_reason": "10/20runを10/22に回復。親公式PDF証跡とこの実行者のTXT hash/本文・検算で3905の一次2件を採用。予定/実績調達と予約権失効・委任議決権を整理しdeep継続、空売り候補へ昇格なし。ほかdeepは10/20の限定照合と既存問いを継承。130Aは一次未確認・未登録。役割入替・履歴削除・追加検索なし。",
     "immediate_short_recommendation": false,
     "cases": [
       {
@@ -3134,21 +3513,21 @@
         "role_label": "深掘り対象",
         "priority": 1,
         "priority_reason": "入金・資金・希薄化が企業価値を左右するため優先",
-        "reason": "大口前受は需要の根拠だが、持続FCFFと同時点資本・融資/設備支払が不足。割高と確定できない。 10/12：IR入口と一覧には到達したが動的な個別開示を抽出できず、新資料・残入金・融資実行の有無は未確認。既存の強気反証と資本/FCFF不足を継承。 10/16：同日初回の公式一覧到達のみ。個別新資料・実行/資金の有無は未確認で、変化なしと断定しない。 10/19：公式入口は到達したが個別の新開示本文を抽出できず、新材料の有無は未確認。保存一次資料の強気反証と具体的研究問いを継承し、変化なしとは断定しない。",
-        "counterevidence": "初回98.55百万USD入金は需要否定への反証。契約発効と運営体制の整備を無視しない。",
+        "reason": "条件待ち：第23回は予定558.096億円に対し実調達271.3640328億円。未行使分取得対価4.1594672億円を分離し、約270億円の費用控除後資金・未充当約44億円は概数のまま。追加調達は検討中で、資金と希薄化の問いを優先。委任議決権12.80%を直接保有としない。最新価格・全社資本/持続FCFF・下落触媒は不足。",
+        "counterevidence": "既存初回98.55百万USD入金と契約発効を維持。実調達と会社の資金充当説明、未行使権利の失効は一方向の弱気説明への反証。調達未達を利益損失・即時債務や事業失敗としない。",
         "change_conditions": [
-          "残32.85百万USDの入金・124百万USD融資の実行と設備支払を確認",
-          "稼働課金・電力/税/更新投資を引いた持続FCFFと希薄化後株数を揃える",
-          "同時点の全体価値が市場評価を支えない根拠と下落触媒が揃えば候補へ再審査"
+          "追加調達の契約/実行/金利/返済と設備支払、残32.85百万USD・124百万USD融資実行を確認",
+          "別系列権利・同時点株数/現金/負債と有償稼働/税/更新投資後の持続FCFF、許可最新価格を揃える",
+          "持続現金が評価を支えれば強気へ、評価不整合と具体的触媒が揃う場合だけ候補を再審査"
         ],
-        "research_question": "契約期間に株主へ残る現金と、追加資金・希薄化を同時点で追えるか",
-        "role_reason": "10/19継続：個別新資料の鮮度は未確認。保存済一次資料、強気反証、資金・持続利益の具体的問いにより研究枠を維持。新資料未取得を入替理由や売り根拠にしない。",
-        "observed_at": null,
-        "observation_window_start": "2026-10-19T10:24:39.744119Z",
-        "observation_window_end": "2026-10-19T14:35:53.315703Z",
-        "assessed_at": "2026-10-19T14:35:53.315703Z",
+        "research_question": "追加資金の実行・設備支払・有償稼働と、同時点の全社資本/持続FCFFを整合させられるか。第23回失効後の別系列権利と返済・希薄化を追う。",
+        "role_reason": "10/20run回復（本文確認10/22）：重要一次2件を採用し資金/希薄化の具体的問いが深まったためdeep継続。空売り候補への昇格ではない。",
+        "observed_at": "2026-10-22T02:15:26.844355Z",
+        "observation_window_start": null,
+        "observation_window_end": null,
+        "assessed_at": "2026-10-22T02:15:26.844355Z",
         "price_basis_date": "2026-10-02",
-        "evidence_change": "not_observed",
+        "evidence_change": "new_primary_evidence",
         "source_ids": [
           "D01",
           "D02",
@@ -3158,7 +3537,9 @@
           "D_INDEX_20261007",
           "DAY12_DS_NEWS",
           "DAY16_DS_LIST",
-          "DAY19_DS_LIST"
+          "DAY19_DS_LIST",
+          "DAY20_DS_WARRANT_EXPIRY",
+          "DAY20_DS_VOTING_DELEGATION"
         ],
         "execution_label": "取引条件は未確認"
       },
@@ -3171,7 +3552,7 @@
         "role_label": "深掘り対象",
         "priority": 1,
         "priority_reason": "海外商用化と資金/可変行使の二つが未解決",
-        "reason": "海外試験導入を商用受注や利益へ変換できない。10/5クレア買収価額減額は資金負担を軽減するが、実需・持続FCFF・希薄化後資本は未確認。割高と確定せず条件待ち。 10/7完全子会社アフラの無対価合併事前開示を確認。新規外部需要/連結利益増分はこの手続きだけでは確定しない。 10/12に10/8会社発表本文を確認。9/27元記事の紹介と建設現場の試験導入で、10/12の新受注発表ではない。有償受注額・粗利・回収の根拠は示されず、全体価値を確定しない。 10/16：10/15発表本文を確認。対象は9/30の国際研修での説明・展示で、供給販売体制は検討段階。有償受注額・利益・現金回収の確定ではない。 10/19：既知10/15発表の9/30展示・説明と供給販売体制検討を再照合。有償受注・利益・回収への進展は確認できず、新材料や利益へ加算しない。",
+        "reason": "海外試験導入を商用受注や利益へ変換できない。10/5クレア買収価額減額は資金負担を軽減するが、実需・持続FCFF・希薄化後資本は未確認。割高と確定せず条件待ち。 10/7完全子会社アフラの無対価合併事前開示を確認。新規外部需要/連結利益増分はこの手続きだけでは確定しない。 10/12に10/8会社発表本文を確認。9/27元記事の紹介と建設現場の試験導入で、10/12の新受注発表ではない。有償受注額・粗利・回収の根拠は示されず、全体価値を確定しない。 10/16：10/15発表本文を確認。対象は9/30の国際研修での説明・展示で、供給販売体制は検討段階。有償受注額・利益・現金回収の確定ではない。 10/19：既知10/15発表の9/30展示・説明と供給販売体制検討を再照合。有償受注・利益・回収への進展は確認できず、新材料や利益へ加算しない。 10/20：有界調査では既知一次本文を再確認。新たな受注・利益の確認ではなく、残る問いと強気反証を継承。",
         "counterevidence": "クレア取得価額841→646百万円、費用込み890→695百万円へ195百万円減額し10/2返金済み。会社は2026年12月期のれん償却29百万円減を開示。需要・財務負担を一方向に弱気評価できない。ただし償却減は現金流入や営業実需ではない。 グループ内再編が管理効率を高める可能性は否定しないが、定量効果と現金寄与は未確認。 海外建設現場の試験導入と認知拡大は合理的な強気説明。商用規模の利益・回収には未接続。 各国政府関係者への紹介と現地パートナー連携は市場浸透の合理的な強気根拠。参加・関心を契約や利益へ置換しない。",
         "change_conditions": [
           "有償導入の数量・単価・粗利と現金回収を確認",
@@ -3182,7 +3563,7 @@
           "10/15の会社発表にある供給・販売体制検討が確定契約/販売・費用/現金回収へ移る証拠を確認。規制説明は会社主張と独立確認を区別"
         ],
         "research_question": "海外での説明・試験導入・認知から、有償導入数量/粗利/回収へ移った一次証拠があるか。供給販売体制の実行費用、資金・希薄化を同時点で確認する。",
-        "role_reason": "10/19継続：海外での認知という強気根拠と商用化・現金回収の具体的問いを保持。材料は既知10/15発表で鮮度を表示し、毎日の強制入替はしない。",
+        "role_reason": "10/20継続：既存一次根拠・強気反証・具体的問いに基づきdeepを維持。新鮮な個別資料が不足する場合も強制入替しない。実観測/判定日時は旧値を保持。",
         "observed_at": null,
         "observation_window_start": "2026-10-19T10:24:39.744119Z",
         "observation_window_end": "2026-10-19T14:35:53.315703Z",
@@ -3213,7 +3594,7 @@
         "role_label": "深掘り対象",
         "priority": 2,
         "priority_reason": "今期影響軽微という提携が将来EPSへどれだけ残るかを優先",
-        "reason": "Edelman提携は実体ある強気材料。今期影響は軽微とされ、長期寄与・評価全体を未検証のため空売りは条件待ち。 10/12：公式IR取得は失敗。10/1Edelman提携の既知本文を再確認し、国際展開の強気説明と今期影響軽微を保持。10/12新開示有無や将来利益額は未確認。 10/16：公式導線の10/15決算短信で26/8営業益742百万円・営業CF574百万円、27/8営業益予想1100百万円・EPS予想139.17円を確認。予想達成や持続FCFFは未確認。提携の10/30実行予定と軽微影響を再照合。旧IR URLは404のままで、全開示確認とはしない。 10/19：既知10/15短信の実績・翌期計画を同一資料で再確認。新しい上方修正ではなく、予想達成・持続FCFF・現時点全体価値は未確認。",
+        "reason": "Edelman提携は実体ある強気材料。今期影響は軽微とされ、長期寄与・評価全体を未検証のため空売りは条件待ち。 10/12：公式IR取得は失敗。10/1Edelman提携の既知本文を再確認し、国際展開の強気説明と今期影響軽微を保持。10/12新開示有無や将来利益額は未確認。 10/16：公式導線の10/15決算短信で26/8営業益742百万円・営業CF574百万円、27/8営業益予想1100百万円・EPS予想139.17円を確認。予想達成や持続FCFFは未確認。提携の10/30実行予定と軽微影響を再照合。旧IR URLは404のままで、全開示確認とはしない。 10/19：既知10/15短信の実績・翌期計画を同一資料で再確認。新しい上方修正ではなく、予想達成・持続FCFF・現時点全体価値は未確認。 10/20：有界調査では既知一次本文を再確認。新たな受注・利益の確認ではなく、残る問いと強気反証を継承。",
         "counterevidence": "既存株の相対取得はTOBの価格下支え保証ではない。提携による国際展開の価値は残る。 営業CF黒字と翌期増益予想は強気反証。増益予想全体をEdelman提携による追加利益と二重加算しない。既存株相対取得をTOBや会社への新資金流入と扱わない。",
         "change_conditions": [
           "実行10/30予定と提携の具体収益・費用・持続EPSを確認",
@@ -3221,7 +3602,7 @@
           "2027年8月期増益予想の達成・営業現金、10/22予定説明資料と10/30予定の提携実行を確認。営業CFをそのままFCFFにしない"
         ],
         "research_question": "翌期増益計画の受注・粗利・費用と持続営業現金を追えるか。提携増分を全体予想へ二重加算せず、10/30実行と同時点資本・市場評価を揃える。",
-        "role_reason": "10/19継続：決算実績と翌期計画の一次本文を再照合。増益計画と現金創出の強気根拠を残し、10/22説明資料・10/30提携実行の確認を待つ。売り候補への昇格ではない。",
+        "role_reason": "10/20継続：既存一次根拠・強気反証・具体的問いに基づきdeepを維持。新鮮な個別資料が不足する場合も強制入替しない。実観測/判定日時は旧値を保持。",
         "observed_at": null,
         "observation_window_start": "2026-10-19T10:24:39.744119Z",
         "observation_window_end": "2026-10-19T14:35:53.315703Z",
@@ -3253,14 +3634,14 @@
         "role_label": "深掘り対象",
         "priority": 2,
         "priority_reason": "買収完了後の一株利益・資金負担の確認を優先",
-        "reason": "買収完了は実行面を支持。PPA・利息・統合費用後の通年利益が不足し、急騰だけで売らない。 10/12：公式IR入口/一覧の個別開示を抽出できず、新重要材料の有無は未確認。既知の取得先実体利益・クロスセルの強気説明を維持。 10/16：同日初回の公式一覧到達のみ。個別新資料・実行/資金の有無は未確認で、変化なしと断定しない。 10/19：公式入口は到達したが個別の新開示本文を抽出できず、新材料の有無は未確認。保存一次資料の強気反証と具体的研究問いを継承し、変化なしとは断定しない。",
+        "reason": "買収完了は実行面を支持。PPA・利息・統合費用後の通年利益が不足し、急騰だけで売らない。 10/12：公式IR入口/一覧の個別開示を抽出できず、新重要材料の有無は未確認。既知の取得先実体利益・クロスセルの強気説明を維持。 10/16：同日初回の公式一覧到達のみ。個別新資料・実行/資金の有無は未確認で、変化なしと断定しない。 10/19：公式入口は到達したが個別の新開示本文を抽出できず、新材料の有無は未確認。保存一次資料の強気反証と具体的研究問いを継承し、変化なしとは断定しない。 10/20：有界調査では公式入口の限定確認に留まり、個別新資料の有無は未確認。保存済根拠を継承し、変化なしと断定しない。",
         "counterevidence": "買収先の実体利益とクロスセルは強気側の合理的根拠。9/24予想の10/1再掲は二度目の増額ではない。",
         "change_conditions": [
           "連結範囲と通年純利益、PPA/のれん、借入実行金利を確認",
           "希薄化後の持続EPSと市場評価が矛盾するかを再計算"
         ],
         "research_question": "取得先利益から借入・PPA・統合費用を引いた持続EPSはどれだけか",
-        "role_reason": "10/19継続：個別新資料の鮮度は未確認。保存済一次資料、強気反証、資金・持続利益の具体的問いにより研究枠を維持。新資料未取得を入替理由や売り根拠にしない。",
+        "role_reason": "10/20継続：既存一次根拠・強気反証・具体的問いに基づきdeepを維持。新鮮な個別資料が不足する場合も強制入替しない。実観測/判定日時は旧値を保持。",
         "observed_at": null,
         "observation_window_start": "2026-10-19T10:24:39.744119Z",
         "observation_window_end": "2026-10-19T14:35:53.315703Z",
@@ -3287,14 +3668,14 @@
         "role_label": "深掘り対象",
         "priority": 2,
         "priority_reason": "買収対象の実体利益と資金・のれん負担を優先",
-        "reason": "約40.09億円の取得は自己資金と借入予定。対象の実体利益があるため急騰だけで売らず、資金・のれん・統合後EPSを待つ。 10/12：IR入口/一覧に到達したが個別開示を抽出できず、新重要材料の有無は未確認。実体利益とクロスセルの反証、買収資金/のれん/統合費用の問いを維持。 10/16：同日初回の公式一覧到達のみ。個別新資料・実行/資金の有無は未確認で、変化なしと断定しない。 10/19：公式入口は到達したが個別の新開示本文を抽出できず、新材料の有無は未確認。保存一次資料の強気反証と具体的研究問いを継承し、変化なしとは断定しない。",
+        "reason": "約40.09億円の取得は自己資金と借入予定。対象の実体利益があるため急騰だけで売らず、資金・のれん・統合後EPSを待つ。 10/12：IR入口/一覧に到達したが個別開示を抽出できず、新重要材料の有無は未確認。実体利益とクロスセルの反証、買収資金/のれん/統合費用の問いを維持。 10/16：同日初回の公式一覧到達のみ。個別新資料・実行/資金の有無は未確認で、変化なしと断定しない。 10/19：公式入口は到達したが個別の新開示本文を抽出できず、新材料の有無は未確認。保存一次資料の強気反証と具体的研究問いを継承し、変化なしとは断定しない。 10/20：有界調査では公式入口の限定確認に留まり、個別新資料の有無は未確認。保存済根拠を継承し、変化なしと断定しない。",
         "counterevidence": "対象の2025年営業利益約5.08億円とクロスセルは強気側の合理性。取得予定を完了・利益保証にしない。",
         "change_conditions": [
           "10/23取得予定と翌期1Q連結、融資実行・のれん/償却・PMIを確認",
           "関連当事者条件と持続利益、希薄化後資本を確認"
         ],
         "research_question": "実体利益を加え資金・のれん・統合費用を引いても割高か",
-        "role_reason": "10/19継続：個別新資料の鮮度は未確認。保存済一次資料、強気反証、資金・持続利益の具体的問いにより研究枠を維持。新資料未取得を入替理由や売り根拠にしない。",
+        "role_reason": "10/20継続：既存一次根拠・強気反証・具体的問いに基づきdeepを維持。新鮮な個別資料が不足する場合も強制入替しない。実観測/判定日時は旧値を保持。",
         "observed_at": null,
         "observation_window_start": "2026-10-19T10:24:39.744119Z",
         "observation_window_end": "2026-10-19T14:35:53.315703Z",
@@ -4452,6 +4833,42 @@
         "verification_window_start": null,
         "verification_window_end": null,
         "body_verified": true
+      },
+      {
+        "source_id": "DAY20_DS_WARRANT_EXPIRY",
+        "title": "第23回新株予約権の行使期間満了に関するお知らせ（親PDF証跡＋受領TXT hash/本文確認10/22）",
+        "url": "https://www.release.tdnet.info/inbs/140120261019553166.pdf",
+        "kind": "issuer",
+        "published_at": "2026-10-19T18:40:00+09:00",
+        "published_date": "2026-10-19",
+        "observed_at": "2026-10-22T02:15:26.844355Z",
+        "verification_window_start": null,
+        "verification_window_end": null,
+        "body_verified": true
+      },
+      {
+        "source_id": "DAY20_DS_VOTING_DELEGATION",
+        "title": "主要株主及び主要株主である筆頭株主の異動に関するお知らせ（親PDF証跡＋受領TXT hash/本文確認10/22）",
+        "url": "https://www.release.tdnet.info/inbs/140120261019553078.pdf",
+        "kind": "issuer",
+        "published_at": "2026-10-19T16:30:00+09:00",
+        "published_date": "2026-10-19",
+        "observed_at": "2026-10-22T02:15:26.844355Z",
+        "verification_window_start": null,
+        "verification_window_end": null,
+        "body_verified": true
+      },
+      {
+        "source_id": "DAY20_BOUNDED_NEWS",
+        "title": "10/20有界ニュース1回：130A二次候補、一次未確認",
+        "url": "https://s.minkabu.jp/news/4639045",
+        "kind": "discovery",
+        "published_at": "2026-10-20T14:05:00+09:00",
+        "published_date": "2026-10-20",
+        "observed_at": null,
+        "verification_window_start": "2026-10-20T10:50:34.549242Z",
+        "verification_window_end": "2026-10-20T10:55:17.875357Z",
+        "body_verified": true
       }
     ],
     "history": [
@@ -4632,6 +5049,26 @@
       {
         "recorded_at": "2026-10-19T14:35:53.315703Z",
         "change_reason": "10/19：親側の独立した同記事読取報告を範囲付き採用し、発見経路の未取得を解消。新規2社は一次の個別材料未確認で未登録、深掘り昇格なし。現deep5を具体的問い・強気反証・鮮度不足に基づき継続し、watch3/queue1/旧5履歴保管を維持。4935/2449の既知一次資料を再照合し、未取得や既知資料を新材料へ変換しない。研究候補の根拠と取引8軸は不足のまま。",
+        "roles": {
+          "3905": "deep",
+          "6904": "watch",
+          "4935": "deep",
+          "7883": "archived",
+          "3350": "archived",
+          "6977": "archived",
+          "4062": "archived",
+          "4967": "watch",
+          "410A": "deep",
+          "4716": "archived",
+          "2449": "deep",
+          "476A": "deep",
+          "3549": "watch",
+          "593A": "queue"
+        }
+      },
+      {
+        "recorded_at": "2026-10-22T02:15:26.844355Z",
+        "change_reason": "10/20runを10/22に回復。親公式PDF証跡とこの実行者のTXT hash/本文・検算で3905の一次2件を採用。予定/実績調達と予約権失効・委任議決権を整理しdeep継続、空売り候補へ昇格なし。ほかdeepは10/20の限定照合と既存問いを継承。130Aは一次未確認・未登録。役割入替・履歴削除・追加検索なし。",
         "roles": {
           "3905": "deep",
           "6904": "watch",
