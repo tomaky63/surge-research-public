@@ -4496,8 +4496,8 @@
   ],
   "price_confirmation_revision": "292dfa5350e2c3fc479aa33a425a31a01b3f3aeb20855cd100eae77939785cd9",
   "research_board": {
-    "revision": "29e23f1253b27cb45f9e430fbe65a86e9a084d457d0a1e3f6d98720f6d86e39f",
-    "recorded_at": "2026-10-27T11:00:23.703456+00:00",
+    "revision": "52f4c95c235199b51f136a509fc2d3e6365036f0743ef5d7b2710e5f797e37e1",
+    "recorded_at": "2026-10-29T10:32:34.363539+00:00",
     "headline": "現時点で空売りを推奨できる銘柄はなし",
     "headline_reason": "企業価値の割高評価と下落触媒の根拠が揃っていない。急騰・提携・好決算だけでは売りの根拠にしない。借株・費用・規制・反転・イベントと損失管理も別に確認する。",
     "research_candidate_count": 0,
@@ -4505,7 +4505,7 @@
     "roles": {
       "deep": 5,
       "watch": 3,
-      "queue": 2,
+      "queue": 3,
       "archived": 5
     },
     "screen_thresholds": {
@@ -4516,11 +4516,13 @@
     "discovery": {
       "method": "bounded_web_research",
       "status": "OBSERVED_PARTIAL",
-      "observed_session": "2026-10-27",
+      "observed_session": "2026-10-28",
       "observed_at": null,
-      "verification_window_start": "2026-10-27T10:43:58.825404Z",
-      "verification_window_end": "2026-10-27T10:55:55Z",
-      "source_ids": [],
+      "verification_window_start": "2026-10-28T10:24:33.739884Z",
+      "verification_window_end": "2026-10-29T10:31:13.049151Z",
+      "source_ids": [
+        "DAY28_DISCOVERY"
+      ],
       "requested_new_company_limit": 3,
       "full_market_coverage": false,
       "formal_adjusted_price_scan": false,
@@ -4529,9 +4531,9 @@
       "observed_twenty_day_condition": null,
       "price_numeric_data_stored": false,
       "recurring_provider_permission": "unconfirmed",
-      "note": "日付限定検索1回の引け市況は出所・実観測範囲を確認。市況での期待と会社一次の事実を分ける。5029/2345/7477は一次未確認で調査待ち・未登録。既存3929は引き続き調査待ち。全市場非網羅、価格15/30/70は未確認。ニュース本文・株価・順位を蓄積配信しない。"
+      "note": "10/28の日付限定検索1回の選択記事を10/29に本文確認。市況は発見の手掛かりに限り、会社一次・価格15/30/70の検証を代替しない。新規は3778/5344の2社までを確認対象とし、3778の10/28会社資料を確認して調査待ちへ追加。5344は会社本文未確認で未登録。全市場非網羅、株価/順位/ニュース本文の継続蓄積配信なし。"
     },
-    "change_reason": "10月27日確認。3905の説明資料、2449の新サービス、4935の既知発売予定を照合し、強気反証と具体的な研究問いから深掘り5社を継続。新規の手掛かり3社は会社一次未確認で登録せず、既存15社と履歴を保持。空売り昇格・強制入替なし。価格・取引条件は未確認。",
+    "change_reason": "10/28の既知一次資料を再確認し深掘り5枠を継続。10/28付のさくらインターネット業績修正・中間決算を10/29に確認し調査待ちへ追加。価格条件・全体価値と持続FCFFは未評価。強制入替/履歴削除/空売り昇格なし。",
     "immediate_short_recommendation": false,
     "cases": [
       {
@@ -4543,7 +4545,7 @@
         "role_label": "深掘り対象",
         "priority": 1,
         "priority_reason": "入金・資金・希薄化が企業価値を左右するため優先",
-        "reason": "条件待ち：10/26説明資料は既知のサービス開始・5年契約・第23回調達を整理。新受注/入金ではなく、稼働率・請求・回収・全社資本/持続FCFFは不足。",
+        "reason": "条件待ち：10/26説明資料は既知のサービス開始・5年契約・第23回調達を整理。新受注/入金ではなく、稼働率・請求・回収・全社資本/持続FCFFは不足。 10/28に同じ会社資料を再確認したもので、新材料・新しい実績の認定ではない。",
         "counterevidence": "既存初回98.55百万USD入金と契約発効を維持。実調達と会社の資金充当説明、未行使権利の失効は一方向の弱気説明への反証。調達未達を利益損失・即時債務や事業失敗としない。 10/23会社説明のAIインフラ／GPUサービス開始は実行面の強気反証。顧客匿名、全容量稼働や利益保証ではない。 10/26説明資料も運用開始と資金充当の会社説明を確認。過去契約/調達の再掲を新しい増益材料にしない。",
         "change_conditions": [
           "追加調達の契約/実行/金利/返済と設備支払、残32.85百万USD・124百万USD融資実行を確認",
@@ -4553,13 +4555,13 @@
           "10/26資料にない利用率/請求/回収/稼働費用を確認。資料の再掲を新受注や新入金にしない。"
         ],
         "research_question": "提供開始から有償利用・請求・回収、設備支払・融資実行・追加調達・希薄化後資本と持続FCFFへの接続を確認できるか。",
-        "role_reason": "10月27日の会社一次資料と強気反証・具体的な研究問いに基づき深掘り継続。空売り候補への昇格や強制入替は行わない。",
+        "role_reason": "10/28に既知の会社一次資料を再確認。強気反証と具体的な研究問いから深掘り継続。新資料・実績の追加や空売り候補昇格ではない。",
         "observed_at": null,
-        "observation_window_start": "2026-10-27T10:43:58.825404Z",
-        "observation_window_end": "2026-10-27T10:49:00.914545Z",
-        "assessed_at": "2026-10-27T11:00:23.703456Z",
+        "observation_window_start": "2026-10-28T10:24:33.739884Z",
+        "observation_window_end": "2026-10-28T10:27:03.740847Z",
+        "assessed_at": "2026-10-28T10:27:03.740847Z",
         "price_basis_date": "2026-10-02",
-        "evidence_change": "new_primary_evidence",
+        "evidence_change": "unchanged",
         "source_ids": [
           "D01",
           "D02",
@@ -4574,7 +4576,8 @@
           "DAY20_DS_VOTING_DELEGATION",
           "DAY26_DS_START",
           "DAY26_DS_BRIEF",
-          "DAY27_DS_PRESENT"
+          "DAY27_DS_PRESENT",
+          "DAY28_DS_PRESENT"
         ],
         "execution_label": "取引条件は未確認"
       },
@@ -4587,7 +4590,7 @@
         "role_label": "深掘り対象",
         "priority": 1,
         "priority_reason": "海外商用化と資金/可変行使の二つが未解決",
-        "reason": "条件待ち：10/23美容液2製品の11月発売計画を本文確認。発売予定は受注・利益・現金回収ではなく、全体価値を支える数量・粗利・資金負担が不足。 10/27：同じ10/23発売予定を通常再読で再確認。新受注・利益更新ではない。",
+        "reason": "条件待ち：10/23美容液2製品の11月発売計画を本文確認。発売予定は受注・利益・現金回収ではなく、全体価値を支える数量・粗利・資金負担が不足。 10/27：同じ10/23発売予定を通常再読で再確認。新受注・利益更新ではない。 10/28に同じ会社資料を再確認したもので、新材料・新しい実績の認定ではない。",
         "counterevidence": "クレア取得価額841→646百万円、費用込み890→695百万円へ195百万円減額し10/2返金済み。会社は2026年12月期のれん償却29百万円減を開示。需要・財務負担を一方向に弱気評価できない。ただし償却減は現金流入や営業実需ではない。 グループ内再編が管理効率を高める可能性は否定しないが、定量効果と現金寄与は未確認。 海外建設現場の試験導入と認知拡大は合理的な強気説明。商用規模の利益・回収には未接続。 各国政府関係者への紹介と現地パートナー連携は市場浸透の合理的な強気根拠。参加・関心を契約や利益へ置換しない。 新製品と販路展開は需要拡大の強気説明を補強するが、効能・実需・利益の独立検証ではない。",
         "change_conditions": [
           "有償導入の数量・単価・粗利と現金回収を確認",
@@ -4599,11 +4602,11 @@
           "11月発売予定を実行・注文・粗利・在庫資金で確認。予定を売上・FCFFへ置換しない。"
         ],
         "research_question": "新製品の発売後数量・返品・販促費・粗利と回収が資本負担を上回り、持続収益へつながるか。",
-        "role_reason": "10月27日の会社一次資料と強気反証・具体的な研究問いに基づき深掘り継続。空売り候補への昇格や強制入替は行わない。",
+        "role_reason": "10/28に既知の会社一次資料を再確認。強気反証と具体的な研究問いから深掘り継続。新資料・実績の追加や空売り候補昇格ではない。",
         "observed_at": null,
-        "observation_window_start": "2026-10-27T10:43:58.825404Z",
-        "observation_window_end": "2026-10-27T10:49:00.914545Z",
-        "assessed_at": "2026-10-27T11:00:23.703456Z",
+        "observation_window_start": "2026-10-28T10:24:33.739884Z",
+        "observation_window_end": "2026-10-28T10:27:03.740847Z",
+        "assessed_at": "2026-10-28T10:27:03.740847Z",
         "price_basis_date": "2026-10-02",
         "evidence_change": "unchanged",
         "source_ids": [
@@ -4619,7 +4622,8 @@
           "R16_LIBERTA_HEAT",
           "DAY19_LIBERTA_KNOWN",
           "DAY26_LIBERTA_MEDILIA",
-          "DAY27_LIBERTA_MEDILIA"
+          "DAY27_LIBERTA_MEDILIA",
+          "DAY28_LIBERTA_MEDILIA"
         ],
         "execution_label": "取引条件は未確認"
       },
@@ -4632,7 +4636,7 @@
         "role_label": "深掘り対象",
         "priority": 2,
         "priority_reason": "今期影響軽微という提携が将来EPSへどれだけ残るかを優先",
-        "reason": "条件待ち：10/27 AIO×PRサービス提供開始を会社本文確認。継続契約型/案件型と初回無料診断は有償受注・利益の実績ではなく、持続収益と全体価値の確認が不足。",
+        "reason": "条件待ち：10/27 AIO×PRサービス提供開始を会社本文確認。継続契約型/案件型と初回無料診断は有償受注・利益の実績ではなく、持続収益と全体価値の確認が不足。 10/28に同じ会社資料を再確認したもので、新材料・新しい実績の認定ではない。",
         "counterevidence": "既存株の相対取得はTOBの価格下支え保証ではない。提携による国際展開の価値は残る。 営業CF黒字と翌期増益予想は強気反証。増益予想全体をEdelman提携による追加利益と二重加算しない。既存株相対取得をTOBや会社への新資金流入と扱わない。 AI回答・引用元分析から施策を設計/実行する新サービスは強気反証。会社はAI回答の変化を保証しないと留保。",
         "change_conditions": [
           "実行10/30予定と提携の具体収益・費用・持続EPSを確認",
@@ -4642,13 +4646,13 @@
           "10/30予定の提携実行とサービス収益を独立に照合。予定を完了へ置換しない。"
         ],
         "research_question": "AIOサービスの有償転換・継続率・契約単価・人件費控除後粗利・回収はどれだけ増分利益を生むか。既存事業/提携の増分を二重加算しない。",
-        "role_reason": "10月27日の会社一次資料と強気反証・具体的な研究問いに基づき深掘り継続。空売り候補への昇格や強制入替は行わない。",
+        "role_reason": "10/28に既知の会社一次資料を再確認。強気反証と具体的な研究問いから深掘り継続。新資料・実績の追加や空売り候補昇格ではない。",
         "observed_at": null,
-        "observation_window_start": "2026-10-27T10:43:58.825404Z",
-        "observation_window_end": "2026-10-27T10:49:00.914545Z",
-        "assessed_at": "2026-10-27T11:00:23.703456Z",
+        "observation_window_start": "2026-10-28T10:24:33.739884Z",
+        "observation_window_end": "2026-10-28T10:27:03.740847Z",
+        "assessed_at": "2026-10-28T10:27:03.740847Z",
         "price_basis_date": "2026-10-02",
-        "evidence_change": "new_primary_evidence",
+        "evidence_change": "unchanged",
         "source_ids": [
           "P2449",
           "DISCOVERY",
@@ -4662,7 +4666,39 @@
           "R16_PRAP_FY",
           "R16_PRAP_CAPITAL",
           "DAY19_PRAP_FY",
-          "DAY27_PRAP_AIO"
+          "DAY27_PRAP_AIO",
+          "DAY28_PRAP_AIO"
+        ],
+        "execution_label": "取引条件は未確認"
+      },
+      {
+        "ticker": "3778",
+        "name": "さくらインターネット",
+        "event_id": "JP-WEB-3778-20261028",
+        "label": "条件待ち・判断材料不足",
+        "role": "queue",
+        "role_label": "新規調査待ち",
+        "priority": 2,
+        "priority_reason": "業績修正の一次根拠と持続利益・投資後現金の問いはあるが、現在の深掘り対象との入替を正当化する比較検証は未了",
+        "reason": "条件待ち・判断材料不足：10/28会社資料で通期営業利益予想25億円から41億円への上方修正を確認。GPUの稼働・単価改善は強気反証で、全体価値・費用時期・更新投資後の持続FCFFと価格条件を未評価。空売り根拠は成立していない。",
+        "counterevidence": "会社はGPU需要・高稼働と提供単価の改善を説明し、中間期営業利益の実績も旧予想を上回る。一方、一部広告/採用施策の見直しと今後の成長投資を含み、増益を全て反復可能な現金利益としない。業績予想は達成保証ではない。",
+        "change_conditions": [
+          "有償利用の継続・単価・顧客分散、保守/電力/人員/減価償却と更新投資後の現金を照合",
+          "施策時期の見直し分と持続利益を分け、リース/借入を含む同時点全社資本・現在価格で評価する",
+          "持続現金が評価を支えれば見送り、過大評価と具体的下落触媒が裏付く場合だけ空売り検討候補を再審査。ランキングだけでは昇格しない"
+        ],
+        "research_question": "GPUの高稼働と単価改善による増益のうち、施策費用の時期変更を除いた持続部分はどれだけか。維持更新投資・リース/借入後のキャッシュが現在全体価値を支えるか。",
+        "role_reason": "10/28付会社開示の10/29観測に基づく調査待ち登録。深掘り5枠の入替や空売り昇格ではない。",
+        "observed_at": null,
+        "observation_window_start": "2026-10-29T10:27:50Z",
+        "observation_window_end": "2026-10-29T10:31:13.049151Z",
+        "assessed_at": "2026-10-29T10:31:13.049151Z",
+        "price_basis_date": null,
+        "evidence_change": "new_primary_evidence",
+        "source_ids": [
+          "DAY28_DISCOVERY",
+          "DAY28_RECOVERY_SAKURA_REVISION",
+          "DAY28_RECOVERY_SAKURA_RESULTS"
         ],
         "execution_label": "取引条件は未確認"
       },
@@ -6203,6 +6239,150 @@
         "verification_window_start": "2026-10-27T10:43:58.825404Z",
         "verification_window_end": "2026-10-27T10:49:00.914545Z",
         "body_verified": true
+      },
+      {
+        "source_id": "DAY28_DS_NEWS",
+        "title": "データセクション公式一覧",
+        "url": "https://www.datasection.co.jp/news",
+        "kind": "issuer",
+        "published_at": null,
+        "published_date": null,
+        "observed_at": null,
+        "verification_window_start": "2026-10-28T10:24:33.739884Z",
+        "verification_window_end": "2026-10-28T10:27:03.740847Z",
+        "body_verified": false
+      },
+      {
+        "source_id": "DAY28_GMO_IR",
+        "title": "GMOコマースIR一覧",
+        "url": "https://ir.gmoc.jp/news/",
+        "kind": "issuer",
+        "published_at": null,
+        "published_date": null,
+        "observed_at": null,
+        "verification_window_start": "2026-10-28T10:24:33.739884Z",
+        "verification_window_end": "2026-10-28T10:27:03.740847Z",
+        "body_verified": false
+      },
+      {
+        "source_id": "DAY28_LIBERTA_LIST",
+        "title": "リベルタIR一覧",
+        "url": "https://ir.liberta-j.co.jp/ja/ir/news.html",
+        "kind": "issuer",
+        "published_at": null,
+        "published_date": null,
+        "observed_at": null,
+        "verification_window_start": "2026-10-28T10:24:33.739884Z",
+        "verification_window_end": "2026-10-28T10:27:03.740847Z",
+        "body_verified": false
+      },
+      {
+        "source_id": "DAY28_PRAP_TOP",
+        "title": "プラップグループ公式一覧",
+        "url": "https://www.prapgroup.com/",
+        "kind": "issuer",
+        "published_at": null,
+        "published_date": null,
+        "observed_at": null,
+        "verification_window_start": "2026-10-28T10:24:33.739884Z",
+        "verification_window_end": "2026-10-28T10:27:03.740847Z",
+        "body_verified": false
+      },
+      {
+        "source_id": "DAY28_HT_IR",
+        "title": "辻・本郷IT IR一覧",
+        "url": "https://ht-itc.jp/ir/ir_news/",
+        "kind": "issuer",
+        "published_at": null,
+        "published_date": null,
+        "observed_at": null,
+        "verification_window_start": "2026-10-28T10:24:33.739884Z",
+        "verification_window_end": "2026-10-28T10:27:03.740847Z",
+        "body_verified": false
+      },
+      {
+        "source_id": "DAY28_DISCOVERY",
+        "title": "10月28日大引け市況（10月29日本文確認）",
+        "url": "https://minkabu.jp/news/4644399",
+        "kind": "discovery",
+        "published_at": "2026-10-28T18:14:00+09:00",
+        "published_date": "2026-10-28",
+        "observed_at": null,
+        "verification_window_start": "2026-10-29T10:27:50Z",
+        "verification_window_end": "2026-10-29T10:27:51Z",
+        "body_verified": true
+      },
+      {
+        "source_id": "DAY28_DS_PRESENT",
+        "title": "AIデータセンター稼働状況等の10/26説明資料（再確認）",
+        "url": "https://www.datasection.co.jp/wp-content/uploads/2026/10/c6b4f48e0351d0cee8a5f0bdec59d314.pdf",
+        "kind": "issuer",
+        "published_at": null,
+        "published_date": "2026-10-26",
+        "observed_at": null,
+        "verification_window_start": "2026-10-28T10:24:33.739884Z",
+        "verification_window_end": "2026-10-28T10:27:03.740847Z",
+        "body_verified": true
+      },
+      {
+        "source_id": "DAY28_LIBERTA_MEDILIA",
+        "title": "MEDiLiA美容液2種の発売予定（再確認）",
+        "url": "https://ir.liberta-j.co.jp/ja/ir/news/auto_20261023555130/pdfFile.pdf",
+        "kind": "issuer",
+        "published_at": null,
+        "published_date": "2026-10-23",
+        "observed_at": null,
+        "verification_window_start": "2026-10-28T10:24:33.739884Z",
+        "verification_window_end": "2026-10-28T10:27:03.740847Z",
+        "body_verified": true
+      },
+      {
+        "source_id": "DAY28_PRAP_AIO",
+        "title": "AIO×PRコンサルティング提供開始（再確認）",
+        "url": "https://www.prapgroup.com/aio_consulting_1027/",
+        "kind": "issuer",
+        "published_at": null,
+        "published_date": "2026-10-27",
+        "observed_at": null,
+        "verification_window_start": "2026-10-28T10:24:33.739884Z",
+        "verification_window_end": "2026-10-28T10:27:03.740847Z",
+        "body_verified": true
+      },
+      {
+        "source_id": "DAY28_RECOVERY_SAKURA_IR",
+        "title": "さくらインターネット公式IR一覧",
+        "url": "https://www.sakura.ad.jp/corporate/ir/",
+        "kind": "issuer",
+        "published_at": null,
+        "published_date": null,
+        "observed_at": null,
+        "verification_window_start": "2026-10-29T10:27:50Z",
+        "verification_window_end": "2026-10-29T10:31:13.049151Z",
+        "body_verified": false
+      },
+      {
+        "source_id": "DAY28_RECOVERY_SAKURA_REVISION",
+        "title": "第2四半期予想と実績値の差異・通期業績予想修正",
+        "url": "https://www.sakura.ad.jp/corporate/wp-content/uploads/2026/10/261028-ir_3.pdf",
+        "kind": "issuer",
+        "published_at": null,
+        "published_date": "2026-10-28",
+        "observed_at": null,
+        "verification_window_start": "2026-10-29T10:27:50Z",
+        "verification_window_end": "2026-10-29T10:31:13.049151Z",
+        "body_verified": true
+      },
+      {
+        "source_id": "DAY28_RECOVERY_SAKURA_RESULTS",
+        "title": "2027年3月期中間決算短信",
+        "url": "https://www.sakura.ad.jp/corporate/wp-content/uploads/2026/10/261028-ir_1.pdf",
+        "kind": "issuer",
+        "published_at": null,
+        "published_date": "2026-10-28",
+        "observed_at": null,
+        "verification_window_start": "2026-10-29T10:27:50Z",
+        "verification_window_end": "2026-10-29T10:31:13.049151Z",
+        "body_verified": true
       }
     ],
     "history": [
@@ -6460,6 +6640,50 @@
           "3549": "watch",
           "593A": "queue",
           "3929": "queue"
+        }
+      },
+      {
+        "recorded_at": "2026-10-29T10:31:13.049151Z",
+        "change_reason": "10/28の既知一次資料を再確認し深掘り5枠を継続。10/28付のさくらインターネット業績修正・中間決算を10/29に確認し調査待ちへ追加。価格条件・全体価値と持続FCFFは未評価。強制入替/履歴削除/空売り昇格なし。",
+        "roles": {
+          "3905": "deep",
+          "6904": "watch",
+          "4935": "deep",
+          "7883": "archived",
+          "3350": "archived",
+          "6977": "archived",
+          "4062": "archived",
+          "4967": "watch",
+          "410A": "deep",
+          "4716": "archived",
+          "2449": "deep",
+          "476A": "deep",
+          "3549": "watch",
+          "593A": "queue",
+          "3929": "queue",
+          "3778": "queue"
+        }
+      },
+      {
+        "recorded_at": "2026-10-29T10:32:34.363539Z",
+        "change_reason": "10/28の既知一次資料を再確認し深掘り5枠を継続。10/28付のさくらインターネット業績修正・中間決算を10/29に確認し調査待ちへ追加。価格条件・全体価値と持続FCFFは未評価。強制入替/履歴削除/空売り昇格なし。",
+        "roles": {
+          "3905": "deep",
+          "6904": "watch",
+          "4935": "deep",
+          "7883": "archived",
+          "3350": "archived",
+          "6977": "archived",
+          "4062": "archived",
+          "4967": "watch",
+          "410A": "deep",
+          "4716": "archived",
+          "2449": "deep",
+          "476A": "deep",
+          "3549": "watch",
+          "593A": "queue",
+          "3929": "queue",
+          "3778": "queue"
         }
       }
     ]
