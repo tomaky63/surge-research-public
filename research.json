@@ -4760,8 +4760,8 @@
   ],
   "price_confirmation_revision": "292dfa5350e2c3fc479aa33a425a31a01b3f3aeb20855cd100eae77939785cd9",
   "research_board": {
-    "revision": "53b3f7faf2a577309006781d6b74d6cf243a6827f17539e6164daba00346484b",
-    "recorded_at": "2026-11-02T10:48:06.991687+00:00",
+    "revision": "cfc1aae90910e5a2fe4ab7a30a052a7ec4e51dc8745413c2e2db6fd719c752cb",
+    "recorded_at": "2026-11-03T10:45:34.896303+00:00",
     "headline": "現時点で空売りを推奨できる銘柄はなし",
     "headline_reason": "企業価値の割高評価と下落触媒の根拠が揃っていない。急騰・提携・好決算だけでは売りの根拠にしない。借株・費用・規制・反転・イベントと損失管理も別に確認する。",
     "research_candidate_count": 0,
@@ -4769,7 +4769,7 @@
     "roles": {
       "deep": 5,
       "watch": 3,
-      "queue": 3,
+      "queue": 4,
       "archived": 5
     },
     "screen_thresholds": {
@@ -4780,12 +4780,13 @@
     "discovery": {
       "method": "bounded_web_research",
       "status": "OBSERVED_PARTIAL",
-      "observed_session": "2026-10-30",
+      "observed_session": "2026-11-03",
       "observed_at": null,
-      "verification_window_start": "2026-11-02T10:40:00Z",
-      "verification_window_end": "2026-11-02T10:48:06.991687Z",
+      "verification_window_start": "2026-11-03T10:43:46Z",
+      "verification_window_end": "2026-11-03T10:45:34.896303Z",
       "source_ids": [
-        "REC30_NEWS"
+        "N03_NEWS",
+        "N03_JPX"
       ],
       "requested_new_company_limit": 3,
       "full_market_coverage": false,
@@ -4795,9 +4796,9 @@
       "observed_twenty_day_condition": null,
       "price_numeric_data_stored": false,
       "recurring_provider_permission": "unconfirmed",
-      "note": "10/30限定の有界検索1回で選択した朝の指数記事を11/2に通常取得して確認。終値時点の探索や11/2独立検索ではない。会社候補の根拠にならず新規登録0、全市場に候補がない意味ではない。累計材料16取得。価格15/30/70未確認。ニュース全文や価格表は保存・再配信しない。"
+      "note": "11/3限定の無料ニュース検索1回、資料16読取・12URL。JPX公式で文化の日の現物休場を確認。11/3朝の記事は11/2の銘柄動向で、当日終値や祝日先物を現物終値として使わない。丸文1社の10/30一次本文を照合して調査待ちへ追加。全市場非網羅、他社未探索を候補0とせず、価格15%/30%/70%条件はすべて未確認。株価・率・履歴表やニュース全文を保存・再配信しない。"
     },
-    "change_reason": "11/2観測：10/30の中断調査を同じ取得枠で再開。4935の10月実行使・新株発行と残存権利、2449の取締役候補を確認。資金調達の強気反証と希薄化を両面検証し、現16社・深掘り5社を継続。新規登録・空売り昇格なし。11/2独立の全日調査ではない。",
+    "change_reason": "11/3休場日の有界調査。JPX公式で文化の日の現物休場を確認。丸文7537の10/30修正予想を一次確認して調査待ちへ1社追加。深掘り5社と旧16社を保持し、価格条件・全体価値・取引条件未確認のため空売り推奨なし。",
     "immediate_short_recommendation": false,
     "cases": [
       {
@@ -4809,7 +4810,7 @@
         "role_label": "深掘り対象",
         "priority": 1,
         "priority_reason": "入金・資金・希薄化が企業価値を左右するため優先",
-        "reason": "条件待ち：10/26説明資料は既知のサービス開始・5年契約・第23回調達を整理。新受注/入金ではなく、稼働率・請求・回収・全社資本/持続FCFFは不足。 10/28に同じ会社資料を再確認したもので、新材料・新しい実績の認定ではない。",
+        "reason": "条件待ち：10/26説明資料は既知のサービス開始・5年契約・第23回調達を整理。新受注/入金ではなく、稼働率・請求・回収・全社資本/持続FCFFは不足。 10/28に同じ会社資料を再確認したもので、新材料・新しい実績の認定ではない。 11/3も同じ10/26説明資料を再読。資料中の10月開始・既存契約・第23回調達を新受注や新入金へ加算しない。",
         "counterevidence": "既存初回98.55百万USD入金と契約発効を維持。実調達と会社の資金充当説明、未行使権利の失効は一方向の弱気説明への反証。調達未達を利益損失・即時債務や事業失敗としない。 10/23会社説明のAIインフラ／GPUサービス開始は実行面の強気反証。顧客匿名、全容量稼働や利益保証ではない。 10/26説明資料も運用開始と資金充当の会社説明を確認。過去契約/調達の再掲を新しい増益材料にしない。",
         "change_conditions": [
           "追加調達の契約/実行/金利/返済と設備支払、残32.85百万USD・124百万USD融資実行を確認",
@@ -4819,13 +4820,13 @@
           "10/26資料にない利用率/請求/回収/稼働費用を確認。資料の再掲を新受注や新入金にしない。"
         ],
         "research_question": "提供開始から有償利用・請求・回収、設備支払・融資実行・追加調達・希薄化後資本と持続FCFFへの接続を確認できるか。",
-        "role_reason": "11/2の確認範囲、強気反証と未解決の研究問いを踏まえ深掘り継続。空売り昇格・強制入替なし。 今回は公式一覧・入口の確認に限定。新しい個別本文は未確認で、旧本文の確認日を更新せず新材料なしとも断定しない。",
+        "role_reason": "11/3の限定確認と保存済みの強気反証・未解決の問いを踏まえて深掘り継続。価格・全体価値・取引条件が不足するため空売り昇格・強制入替なし。",
         "observed_at": null,
-        "observation_window_start": "2026-10-29T10:58:00Z",
-        "observation_window_end": "2026-10-29T11:01:46Z",
-        "assessed_at": "2026-11-02T10:48:06.991687Z",
+        "observation_window_start": "2026-11-03T10:43:46Z",
+        "observation_window_end": "2026-11-03T10:45:34.896303Z",
+        "assessed_at": "2026-11-03T10:45:34.896303Z",
         "price_basis_date": "2026-10-02",
-        "evidence_change": "not_observed",
+        "evidence_change": "interpretation_only",
         "source_ids": [
           "D01",
           "D02",
@@ -4844,7 +4845,9 @@
           "DAY28_DS_PRESENT",
           "DAY29_DS_LIST",
           "DAY29_DS_PRESENT",
-          "NOV2_DS_INDEX"
+          "NOV2_DS_INDEX",
+          "N03_DS_LIST",
+          "N03_DS_PRESENT"
         ],
         "execution_label": "取引条件は未確認"
       },
@@ -4857,7 +4860,7 @@
         "role_label": "深掘り対象",
         "priority": 1,
         "priority_reason": "実行使が確認され資金・希薄化の整合検証を優先。ただし価格条件と全体価値は未確認。",
-        "reason": "11/2開示で10月の第7回新株予約権1,006個の行使、100,600株の新株交付を確認。1.35%は発行した予約権総数に対する比率で全社希薄化率ではない。月末未行使32,678個・3,267,800株分は潜在分で未発行。実資金調達と希薄化を分離し、利益・持続FCFFと同時点資本不足により条件待ち。",
+        "reason": "11/2開示で10月の第7回新株予約権1,006個の行使、100,600株の新株交付を確認。1.35%は発行した予約権総数に対する比率で全社希薄化率ではない。月末未行使32,678個・3,267,800株分は潜在分で未発行。実資金調達と希薄化を分離し、利益・持続FCFFと同時点資本不足により条件待ち。 11/3は11/2月間行使資料の再確認。100,600株実発行と残3,267,800株潜在、21,327,200円算術払込総額の区別を維持し、新たな11月行使としない。",
         "counterevidence": "クレア取得価額841→646百万円、費用込み890→695百万円へ195百万円減額し10/2返金済み。会社は2026年12月期のれん償却29百万円減を開示。需要・財務負担を一方向に弱気評価できない。ただし償却減は現金流入や営業実需ではない。 グループ内再編が管理効率を高める可能性は否定しないが、定量効果と現金寄与は未確認。 海外建設現場の試験導入と認知拡大は合理的な強気説明。商用規模の利益・回収には未接続。 各国政府関係者への紹介と現地パートナー連携は市場浸透の合理的な強気根拠。参加・関心を契約や利益へ置換しない。 新製品と販路展開は需要拡大の強気説明を補強するが、効能・実需・利益の独立検証ではない。 既存ブランド・販売網を使った新商品の展開は強気反証。ただし全商品過去累計を新SKUの実績へ移さない。 10月の実行使は資金調達が全くないという弱気仮説への反証。100,600株×212円＝21,327,200円は算術上の行使払込総額で、手取額・利益・FCFFではない。製品の有償受注や採算の証明にもならない。",
         "change_conditions": [
           "有償導入の数量・単価・粗利と現金回収を確認",
@@ -4871,13 +4874,13 @@
           "11/2開示の10月行使を同時点株数・現金に一度だけ反映。残存権利を発行済みと混同せず、手取額・費用・使途と業績を一次資料で照合する。"
         ],
         "research_question": "第7回の残存3,267,800株分、別系列権利、同時点株数・現金・負債を統合すると一株価値はどう変わるか。製品需要は持続利益・営業キャッシュに転換しているか。",
-        "role_reason": "11/2の確認範囲、強気反証と未解決の研究問いを踏まえ深掘り継続。空売り昇格・強制入替なし。",
+        "role_reason": "11/3の限定確認と保存済みの強気反証・未解決の問いを踏まえて深掘り継続。価格・全体価値・取引条件が不足するため空売り昇格・強制入替なし。",
         "observed_at": null,
-        "observation_window_start": "2026-11-02T10:40:00Z",
-        "observation_window_end": "2026-11-02T10:48:06.991687Z",
-        "assessed_at": "2026-11-02T10:48:06.991687Z",
+        "observation_window_start": "2026-11-03T10:43:46Z",
+        "observation_window_end": "2026-11-03T10:45:34.896303Z",
+        "assessed_at": "2026-11-03T10:45:34.896303Z",
         "price_basis_date": "2026-10-02",
-        "evidence_change": "new_primary_evidence",
+        "evidence_change": "interpretation_only",
         "source_ids": [
           "L_SG_PILOT",
           "L_MOM",
@@ -4895,7 +4898,9 @@
           "DAY28_LIBERTA_MEDILIA",
           "DAY29_LIB_LIST",
           "DAY29_LIB_BAND",
-          "NOV2_L_WARRANT"
+          "NOV2_L_WARRANT",
+          "N03_L_LIST",
+          "N03_L_WARRANT"
         ],
         "execution_label": "取引条件は未確認"
       },
@@ -4908,7 +4913,7 @@
         "role_label": "深掘り対象",
         "priority": 2,
         "priority_reason": "今期影響軽微という提携が将来EPSへどれだけ残るかを優先",
-        "reason": "条件待ち：10/27 AIO×PRサービス提供開始を会社本文確認。継続契約型/案件型と初回無料診断は有償受注・利益の実績ではなく、持続収益と全体価値の確認が不足。 10/28に同じ会社資料を再確認したもので、新材料・新しい実績の認定ではない。 11/2は11/26株主総会に付議する取締役6名（全員再任）等の候補を確認。現7名から1名任期満了退任予定であり選任完了ではない。これだけで業績・株価の触媒にしない。",
+        "reason": "条件待ち：10/27 AIO×PRサービス提供開始を会社本文確認。継続契約型/案件型と初回無料診断は有償受注・利益の実績ではなく、持続収益と全体価値の確認が不足。 10/28に同じ会社資料を再確認したもので、新材料・新しい実績の認定ではない。 11/2は11/26株主総会に付議する取締役6名（全員再任）等の候補を確認。現7名から1名任期満了退任予定であり選任完了ではない。これだけで業績・株価の触媒にしない。 11/3に10/30保守予定告知を再読。予定時刻は経過したが、本文は完了報告ではなく実施・完了・障害影響は未確認。以前の「観測時実施前」は11/2観測時点の記録。",
         "counterevidence": "既存株の相対取得はTOBの価格下支え保証ではない。提携による国際展開の価値は残る。 営業CF黒字と翌期増益予想は強気反証。増益予想全体をEdelman提携による追加利益と二重加算しない。既存株相対取得をTOBや会社への新資金流入と扱わない。 AI回答・引用元分析から施策を設計/実行する新サービスは強気反証。会社はAI回答の変化を保証しないと留保。 10/30確認のLOGOLABO予定保守は限定的な停止予定で、全社重大障害や利益悪化を示さない。11/2 20:00–20:30内約10分の予定で、観測時は実施前。",
         "change_conditions": [
           "実行10/30予定と提携の具体収益・費用・持続EPSを確認",
@@ -4916,16 +4921,17 @@
           "2027年8月期増益予想の達成・営業現金、10/22予定説明資料と10/30予定の提携実行を確認。営業CFをそのままFCFFにしない",
           "無料診断から有償への転換、継続契約件数と費用・粗利・現金を確認",
           "10/30予定の提携実行とサービス収益を独立に照合。予定を完了へ置換しない。",
-          "LOGOLABO保守の実施・完了、補償/解約/回収影響を事後確認。10/30予定の資本提携実行とAIO有償需要・採算は別途確認。"
+          "LOGOLABO保守の実施・完了、補償/解約/回収影響を事後確認。10/30予定の資本提携実行とAIO有償需要・採算は別途確認。",
+          "11/2の予定時刻が過ぎたことと保守完了の証明を区別。正式な実施・完了の証跡、補償・解約・業績影響を確認。"
         ],
         "research_question": "AIOサービスの有償転換・継続率・契約単価・人件費控除後粗利・回収はどれだけ増分利益を生むか。既存事業/提携の増分を二重加算しない。",
-        "role_reason": "11/2の確認範囲、強気反証と未解決の研究問いを踏まえ深掘り継続。空売り昇格・強制入替なし。",
+        "role_reason": "11/3の限定確認と保存済みの強気反証・未解決の問いを踏まえて深掘り継続。価格・全体価値・取引条件が不足するため空売り昇格・強制入替なし。",
         "observed_at": null,
-        "observation_window_start": "2026-11-02T10:40:00Z",
-        "observation_window_end": "2026-11-02T10:48:06.991687Z",
-        "assessed_at": "2026-11-02T10:48:06.991687Z",
+        "observation_window_start": "2026-11-03T10:43:46Z",
+        "observation_window_end": "2026-11-03T10:45:34.896303Z",
+        "assessed_at": "2026-11-03T10:45:34.896303Z",
         "price_basis_date": "2026-10-02",
-        "evidence_change": "new_primary_evidence",
+        "evidence_change": "interpretation_only",
         "source_ids": [
           "P2449",
           "DISCOVERY",
@@ -4943,7 +4949,9 @@
           "DAY28_PRAP_AIO",
           "DAY29_PRAP_TOP",
           "DAY29_PRAP_AIO",
-          "NOV2_P_DIRECTORS"
+          "NOV2_P_DIRECTORS",
+          "N03_P_TOP",
+          "N03_P_MAINT"
         ],
         "execution_label": "取引条件は未確認"
       },
@@ -4994,11 +5002,11 @@
           "希薄化後の持続EPSと市場評価が矛盾するかを再計算"
         ],
         "research_question": "取得先利益から借入・PPA・統合費用を引いた持続EPSはどれだけか",
-        "role_reason": "11/2の確認範囲、強気反証と未解決の研究問いを踏まえ深掘り継続。空売り昇格・強制入替なし。 今回は公式一覧・入口の確認に限定。新しい個別本文は未確認で、旧本文の確認日を更新せず新材料なしとも断定しない。",
+        "role_reason": "11/3の限定確認と保存済みの強気反証・未解決の問いを踏まえて深掘り継続。価格・全体価値・取引条件が不足するため空売り昇格・強制入替なし。 今回は公式入口のみ。動的な個別新開示本文は未抽出で、旧本文確認日を更新せず変化なしと断定しない。",
         "observed_at": null,
         "observation_window_start": "2026-10-19T10:24:39.744119Z",
         "observation_window_end": "2026-10-19T14:35:53.315703Z",
-        "assessed_at": "2026-11-02T10:48:06.991687Z",
+        "assessed_at": "2026-11-03T10:45:34.896303Z",
         "price_basis_date": "2026-10-02",
         "evidence_change": "not_observed",
         "source_ids": [
@@ -5010,7 +5018,8 @@
           "DAY16_GMO_LIST",
           "DAY19_GMO_LIST",
           "DAY29_GMO_IR",
-          "NOV2_G_INDEX"
+          "NOV2_G_INDEX",
+          "N03_G_IR"
         ],
         "execution_label": "取引条件は未確認"
       },
@@ -5030,11 +5039,11 @@
           "関連当事者条件と持続利益、希薄化後資本を確認"
         ],
         "research_question": "実体利益を加え資金・のれん・統合費用を引いても割高か",
-        "role_reason": "11/2の確認範囲、強気反証と未解決の研究問いを踏まえ深掘り継続。空売り昇格・強制入替なし。 今回は公式一覧・入口の確認に限定。新しい個別本文は未確認で、旧本文の確認日を更新せず新材料なしとも断定しない。",
+        "role_reason": "11/3の限定確認と保存済みの強気反証・未解決の問いを踏まえて深掘り継続。価格・全体価値・取引条件が不足するため空売り昇格・強制入替なし。 今回は公式入口のみ。動的な個別新開示本文は未抽出で、旧本文確認日を更新せず変化なしと断定しない。",
         "observed_at": null,
         "observation_window_start": "2026-10-19T10:24:39.744119Z",
         "observation_window_end": "2026-10-19T14:35:53.315703Z",
-        "assessed_at": "2026-11-02T10:48:06.991687Z",
+        "assessed_at": "2026-11-03T10:45:34.896303Z",
         "price_basis_date": "2026-10-02",
         "evidence_change": "not_observed",
         "source_ids": [
@@ -5046,7 +5055,8 @@
           "DAY16_HT_LIST",
           "DAY19_HT_LIST",
           "DAY29_HT_IR",
-          "NOV2_H_INDEX"
+          "NOV2_H_INDEX",
+          "N03_H_IR"
         ],
         "execution_label": "取引条件は未確認"
       },
@@ -5192,6 +5202,37 @@
         "evidence_change": "interpretation_only",
         "source_ids": [
           "H_DIV"
+        ],
+        "execution_label": "取引条件は未確認"
+      },
+      {
+        "ticker": "7537",
+        "name": "丸文",
+        "event_id": "JP-DISCOVERY-7537-20261102",
+        "label": "条件待ち・判断材料不足",
+        "role": "queue",
+        "role_label": "新規調査待ち",
+        "priority": 3,
+        "priority_reason": "需要と商品ミックス改善が持続利益・現金へ残るかを確認する調査待ち。",
+        "reason": "10/30一次開示で通期営業利益予想78億円から98億円への上方修正を確認。中間営業利益45.75億円は会社実績。通期98億円は予想であり実現済みではない。現価格・全体価値・同時点資本・持続FCFF不足のため条件待ち。",
+        "counterevidence": "会社はモビリティ向け半導体需要・産業機器分野と商品ミックス改善を上振れ理由として説明。合理的な強気反証で、急騰だけで割高・売りとしない。他方、営業外の為替差益による純利益上振れと営業利益の改善を分け、為替益を反復的な営業利益やFCFFへ加算しない。",
+        "change_conditions": [
+          "需要・商品ミックス改善の持続性、セグメント採算・受注・在庫・売掛回収を確認",
+          "為替差益を除いた持続利益、設備投資後CFと同時点現金・有利子負債・株数を確認",
+          "許諾された最新価格と全体価値の不整合・具体的下落触媒が揃う場合だけ研究候補を再審査"
+        ],
+        "research_question": "予想上方修正のうち需要・ミックス改善はいくら持続し、為替差益と運転資金を除いた現金利益はどれだけか。",
+        "role_reason": "一次資料は確認したが価値評価と持続現金の検証が不足。既存深掘り5社を押し出さず調査待ちへ。",
+        "observed_at": null,
+        "observation_window_start": "2026-11-03T10:43:46Z",
+        "observation_window_end": "2026-11-03T10:45:34.896303Z",
+        "assessed_at": "2026-11-03T10:45:34.896303Z",
+        "price_basis_date": null,
+        "evidence_change": "new_discovery",
+        "source_ids": [
+          "N03_NEWS",
+          "N03_M_IR",
+          "N03_M_FORECAST"
         ],
         "execution_label": "取引条件は未確認"
       },
@@ -6927,6 +6968,150 @@
         "verification_window_start": "2026-11-02T10:40:00Z",
         "verification_window_end": "2026-11-02T10:48:06.991687Z",
         "body_verified": true
+      },
+      {
+        "source_id": "N03_NEWS",
+        "title": "11/3朝の前日銘柄記事（対象は11/2、発見入口のみ）",
+        "url": "https://s.kabutan.jp/news/n202611030205/",
+        "kind": "discovery",
+        "published_at": "2026-11-03T07:15:00+09:00",
+        "published_date": "2026-11-03",
+        "observed_at": null,
+        "verification_window_start": "2026-11-03T10:43:46Z",
+        "verification_window_end": "2026-11-03T10:45:34.896303Z",
+        "body_verified": true
+      },
+      {
+        "source_id": "N03_JPX",
+        "title": "JPX2026年休業日一覧：11/3文化の日",
+        "url": "https://www.jpx.co.jp/corporate/about-jpx/calendar/index.html",
+        "kind": "regulation",
+        "published_at": null,
+        "published_date": null,
+        "observed_at": null,
+        "verification_window_start": "2026-11-03T10:43:46Z",
+        "verification_window_end": "2026-11-03T10:45:34.896303Z",
+        "body_verified": true
+      },
+      {
+        "source_id": "N03_DS_LIST",
+        "title": "データセクション公式一覧（個別新資料有無は未確認）",
+        "url": "https://www.datasection.co.jp/news",
+        "kind": "issuer",
+        "published_at": null,
+        "published_date": null,
+        "observed_at": null,
+        "verification_window_start": "2026-11-03T10:43:46Z",
+        "verification_window_end": "2026-11-03T10:45:34.896303Z",
+        "body_verified": false
+      },
+      {
+        "source_id": "N03_L_LIST",
+        "title": "リベルタ公式IR一覧（一覧の取得範囲）",
+        "url": "https://ir.liberta-j.co.jp/ja/ir/news.html",
+        "kind": "issuer",
+        "published_at": null,
+        "published_date": null,
+        "observed_at": null,
+        "verification_window_start": "2026-11-03T10:43:46Z",
+        "verification_window_end": "2026-11-03T10:45:34.896303Z",
+        "body_verified": false
+      },
+      {
+        "source_id": "N03_P_TOP",
+        "title": "プラップグループ公式入口（一覧の取得範囲）",
+        "url": "https://www.prapgroup.com/",
+        "kind": "issuer",
+        "published_at": null,
+        "published_date": null,
+        "observed_at": null,
+        "verification_window_start": "2026-11-03T10:43:46Z",
+        "verification_window_end": "2026-11-03T10:45:34.896303Z",
+        "body_verified": false
+      },
+      {
+        "source_id": "N03_G_IR",
+        "title": "GMOコマース公式IR入口（動的個別本文は未抽出）",
+        "url": "https://ir.gmoc.jp/news/",
+        "kind": "issuer",
+        "published_at": null,
+        "published_date": null,
+        "observed_at": null,
+        "verification_window_start": "2026-11-03T10:43:46Z",
+        "verification_window_end": "2026-11-03T10:45:34.896303Z",
+        "body_verified": false
+      },
+      {
+        "source_id": "N03_H_IR",
+        "title": "辻・本郷IT公式IR入口（動的個別本文は未抽出）",
+        "url": "https://ht-itc.jp/ir/ir_news/",
+        "kind": "issuer",
+        "published_at": null,
+        "published_date": null,
+        "observed_at": null,
+        "verification_window_start": "2026-11-03T10:43:46Z",
+        "verification_window_end": "2026-11-03T10:45:34.896303Z",
+        "body_verified": false
+      },
+      {
+        "source_id": "N03_L_WARRANT",
+        "title": "11/2第7回月間行使状況（11/3同一本文再確認）",
+        "url": "https://ir.liberta-j.co.jp/ja/ir/news/auto_20261102563125/pdfFile.pdf",
+        "kind": "issuer",
+        "published_at": null,
+        "published_date": "2026-11-02",
+        "observed_at": null,
+        "verification_window_start": "2026-11-03T10:43:46Z",
+        "verification_window_end": "2026-11-03T10:45:34.896303Z",
+        "body_verified": true
+      },
+      {
+        "source_id": "N03_P_MAINT",
+        "title": "10/30ロゴラボ保守予定（11/3再読、完了告知ではない）",
+        "url": "https://www.prapgroup.com/logolabo_1030/",
+        "kind": "issuer",
+        "published_at": null,
+        "published_date": "2026-10-30",
+        "observed_at": null,
+        "verification_window_start": "2026-11-03T10:43:46Z",
+        "verification_window_end": "2026-11-03T10:45:34.896303Z",
+        "body_verified": true
+      },
+      {
+        "source_id": "N03_DS_PRESENT",
+        "title": "10/26AIデータセンター説明資料（11/3既知本文再確認）",
+        "url": "https://www.datasection.co.jp/wp-content/uploads/2026/10/c6b4f48e0351d0cee8a5f0bdec59d314.pdf",
+        "kind": "issuer",
+        "published_at": null,
+        "published_date": "2026-10-26",
+        "observed_at": null,
+        "verification_window_start": "2026-11-03T10:43:46Z",
+        "verification_window_end": "2026-11-03T10:45:34.896303Z",
+        "body_verified": true
+      },
+      {
+        "source_id": "N03_M_IR",
+        "title": "丸文公式IR一覧",
+        "url": "https://www.marubun.co.jp/ir/",
+        "kind": "issuer",
+        "published_at": null,
+        "published_date": null,
+        "observed_at": null,
+        "verification_window_start": "2026-11-03T10:43:46Z",
+        "verification_window_end": "2026-11-03T10:45:34.896303Z",
+        "body_verified": false
+      },
+      {
+        "source_id": "N03_M_FORECAST",
+        "title": "丸文10/30中間実績差異・通期業績予想の上方修正",
+        "url": "https://www.marubun.co.jp/wp-content/uploads/2026/10/20261030_irrelease_01.pdf",
+        "kind": "issuer",
+        "published_at": null,
+        "published_date": "2026-10-30",
+        "observed_at": null,
+        "verification_window_start": "2026-11-03T10:43:46Z",
+        "verification_window_end": "2026-11-03T10:45:34.896303Z",
+        "body_verified": true
       }
     ],
     "history": [
@@ -7272,6 +7457,29 @@
           "593A": "queue",
           "3929": "queue",
           "3778": "queue"
+        }
+      },
+      {
+        "recorded_at": "2026-11-03T10:45:34.896303Z",
+        "change_reason": "11/3休場日の有界調査。JPX公式で文化の日の現物休場を確認。丸文7537の10/30修正予想を一次確認して調査待ちへ1社追加。深掘り5社と旧16社を保持し、価格条件・全体価値・取引条件未確認のため空売り推奨なし。",
+        "roles": {
+          "3905": "deep",
+          "6904": "watch",
+          "4935": "deep",
+          "7883": "archived",
+          "3350": "archived",
+          "6977": "archived",
+          "4062": "archived",
+          "4967": "watch",
+          "410A": "deep",
+          "4716": "archived",
+          "2449": "deep",
+          "476A": "deep",
+          "3549": "watch",
+          "593A": "queue",
+          "3929": "queue",
+          "3778": "queue",
+          "7537": "queue"
         }
       }
     ]
